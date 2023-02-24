@@ -1,0 +1,113 @@
+
+
+.container-list{
+    width: 100% ;
+    min-height: 600px;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.35);
+    border-radius: 10px;
+}
+
+.carousel-container{
+    width: 100%;
+    height: 100%;
+    padding: 50px;
+}
+
+.foto-alumno{
+    height: px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin: 20px;
+}
+
+.card.d-flex{
+    border: none;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.35);
+
+}
+
+.img-card-container{
+    width: 100%;
+    background-color: #36455D;
+    border-radius: 15px;
+
+}
+.blob{
+    width: 220px;
+    height: 220px;
+    border-radius: 50%;
+    background-color: #36455D;
+    position: absolute;
+    top: 65px ;
+    z-index: 1;
+}   
+
+.img-content{
+    height: 225px;
+    width: 225px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 2;
+
+}
+
+.img-content > img{
+    transform:  scale(1.2);
+}
+.card-alumno{
+    height: 550px !important;
+}
+
+.h-225{
+    height: 225px;
+    width: 225px;
+}
+
+.name-alumno{
+    color: #36455D;
+    font-size: 25px;
+    margin-top: 10px;
+}
+
+.linea-alumno{
+    color: #818B9A;
+    font-size: 20px;
+}
+
+.linea-inv-text{
+    color: #818B9A;
+    margin-top: 5px;
+}
+
+.icono-linea-inv{
+    width: 50px;
+    margin: 10px;
+    transition: 0.5s;
+
+}
+
+.icono-linea-inv > img{
+    width: 60px;
+    transition: 0.5s;
+
+}
+
+
+
+
+.icono-linea-inv:hover{
+    filter: drop-shadow(0px 5px 15px rgba(0, 0, 0, 0.50));
+
+}
+
+.icono-linea-inv > img:hover{
+    filter: drop-shadow(0px 5px 15px rgba(0, 0, 0, 0.50));
+
+}

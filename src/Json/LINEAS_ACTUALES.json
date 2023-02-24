@@ -1,0 +1,46 @@
+[
+    { 
+        "name":"Almacenamiento de Energía",
+        "icon":"AlmacenamientoEnergiaW.png",
+        "color":"color-1",
+        "content": ["Este es un contenido de prueba y ejemplo para la linea de Almacenamiento de Energía", "Pagrafo 2 ", "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed rerum eaque sunt facilis, voluptates ea quaerat totam? Vero beatae, quaerat veritatis eum maxime tenetur, ullam quos reiciendis, nisi officia laudantium?"]
+    
+    }, 
+    { 
+        "name":"Conversión de Energía",
+        "icon":"ConversionEnergiaW.png",
+        "color":"color-2",
+        "content": ["Este es un contenido de prueba y ejemplo para la linea de Conversión de Energía", "Pagrafo 2 ", "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed rerum eaque sunt facilis, voluptates ea quaerat totam? Vero beatae, quaerat veritatis eum maxime tenetur, ullam quos reiciendis, nisi officia laudantium?"]
+
+
+    },
+    { 
+        "name":"Nanomateriales con aplicaciones Biomédicas",
+        "icon":"NanomaterialesW.png",
+        "color":"color-3",
+        "content": ["Este es un contenido de prueba y ejemplo para la linea de Nanomateriales con aplicaciones Biomédicas", "Pagrafo 2 ", "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed rerum eaque sunt facilis, voluptates ea quaerat totam? Vero beatae, quaerat veritatis eum maxime tenetur, ullam quos reiciendis, nisi officia laudantium?"]
+
+
+    },
+    { 
+        "name":"Biosensores Electroquimicos",
+        "icon":"BiosensoresElectro2W.png",
+        "color":"color-1",
+        "content": ["Este es un contenido de prueba y ejemplo para la linea de Biosensores Electroquimicos", "Pagrafo 2 ", "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed rerum eaque sunt facilis, voluptates ea quaerat totam? Vero beatae, quaerat veritatis eum maxime tenetur, ullam quos reiciendis, nisi officia laudantium?"]
+
+    },
+    { 
+        "name":"Actuadores electroquimicos",
+        "icon":"BiosensoresElectro2W.png",
+        "color":"color-2",
+        "content": ["Este es un contenido de prueba y ejemplo para la linea de Biosensores Electroquimicos", "Pagrafo 2 ", "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed rerum eaque sunt facilis, voluptates ea quaerat totam? Vero beatae, quaerat veritatis eum maxime tenetur, ullam quos reiciendis, nisi officia laudantium?"]
+
+    },
+    { 
+        "name":"Actuadores electroquimicos",
+        "icon":"BiosensoresElectro2W.png",
+        "color":"color-2",
+        "content": ["Este es un contenido de prueba y ejemplo para la linea de Biosensores Electroquimicos", "Pagrafo 2 ", "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed rerum eaque sunt facilis, voluptates ea quaerat totam? Vero beatae, quaerat veritatis eum maxime tenetur, ullam quos reiciendis, nisi officia laudantium?"]
+
+    }
+]

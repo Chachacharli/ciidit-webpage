@@ -1,0 +1,46 @@
+.nav-link.active{
+    background-color: #041735 !important;
+    color: aliceblue !important;
+}
+
+.nav-link{
+    color: #041735 !important;
+}
+
+.tab-content{
+    background-color: aliceblue !important;
+    border-radius: 10px;
+    filter: drop-shadow(0px 5px 15px rgba(0, 0, 0, 0.35));  
+
+}
+
+.tab-pane > p{
+    font-size: 20px !important;
+    padding: 10px;
+    
+}
+
+.lista-patentes{
+    filter: drop-shadow(0px 5px 15px rgba(0, 0, 0, 0.35));  
+    font-size: 18px;
+}
+
+.lista-patentes li {
+    padding: 10px;
+}
+
+.badge{
+    transition: 0.3s !important;
+}
+
+.badge:hover{
+        background-color: #041735 !important;
+}
+
+.item-patente{
+    transition: 0.3s;
+}
+
+.item-patente:hover{
+    background-color: #a5b5ce !important;
+}

@@ -1,0 +1,54 @@
+body{
+    overflow-x: hidden;
+
+}
+
+.name-page{
+    margin-left: 20px;    
+}
+
+.section-linea-investigacion{
+    width: 100vw;
+    min-height: 100vh;
+    background-color: whitesmoke;
+}
+
+.img-article-container{
+    width: 80%;
+}
+
+.linea-side > a{
+    text-decoration: none;
+    color: aliceblue;
+    transition: 0.3s;
+}
+
+.linea-side > a:hover{
+    color: #0dcaf0;
+}
+
+.main-article-container{
+    margin-bottom: 20px;
+}
+.container-img-card-line {
+    overflow: hidden;
+    border-radius: 5px 0 0 5px;
+
+}
+
+.container-img-card-line > img{
+    transform: scale(1.8);
+}
+
+.card-alumno-modal{
+    cursor: pointer;
+    transition: 0.5s;
+    filter: drop-shadow(0px 5px 15px rgba(0, 0, 0, 0.25));
+
+}
+
+.card-alumno-modal:hover{
+    background-color: #0dcaf0;
+    filter: drop-shadow(0px 5px 15px rgba(0, 0, 0, 0.35));
+
+}

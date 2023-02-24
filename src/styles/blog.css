@@ -1,0 +1,41 @@
+.blog-entry-card{
+    border: none !important;
+    filter: drop-shadow(0px 5px 15px rgba(0, 0, 0, 0.35));
+    height: 360px;
+    cursor: pointer;
+    transition: .25s;
+    padding-top:10px ;
+
+
+}
+.blog-entry-card:hover{
+    filter: drop-shadow(0px 5px 15px rgba(0, 0, 0, 0.5));
+}
+
+
+.blog-entry-card > img{
+    border-radius: 0;
+}
+
+.dia-blog{
+    height:  50%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+.mes-blog{
+    height:  50%;
+    width: 100%;
+    margin: 10px 0 0 0 ;
+}
+
+
+.card-entry-fecha{
+    color: rgba(0, 0, 0, 1)    ;
+    font-weight: 600;
+
+}

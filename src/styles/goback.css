@@ -1,0 +1,27 @@
+#Goback{
+    width: 50px;
+    height: 50px;
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    background-color: #041735;
+    border-radius: 50% ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+    color: aliceblue;
+    filter: drop-shadow(0px 5px 15px rgba(0, 0, 0, 0.5));
+    transition: 0.5s;
+}
+
+#Goback > i{
+    margin-left: -1px;
+}
+
+#Goback:hover{
+    background-color:  rgb(7, 38, 88);
+    filter: drop-shadow(0px 5px 15px rgba(0, 0, 0, 0.8));
+
+
+}

@@ -1,0 +1,129 @@
+[
+    {
+      "name":"Roxana Berlanga Pérez",
+      "foto": "DSC_0618.JPG",
+      "carrera": "Ing. Mecatrónica",
+      "linea_investigacion": "Almacenamiento de Energía",
+      "icon_inv": "AlmacenamientoEnergia.svg"
+    },
+    {
+        "name":"Francisco Sebastián Elizondo Castillo",
+        "foto": "DSC_0636.JPG",
+        "carrera": "MC Student",
+        "linea_investigacion": "Almacenamiento de Energía",
+        "icon_inv": "AlmacenamientoEnergia.svg"
+      },
+      {
+        "name":"Paola Daresi Navarro Leal",
+        "foto": "DSC_0608.JPG",
+        "carrera": "Ing. Biomédico",
+        "linea_investigacion": "Conversión de Energía",
+        "icon_inv": "ConversionEnergia.svg"
+      },
+      {
+        "name":"David Lázaro Tristán",
+        "foto": "DSC_0638.JPG",
+        "carrera": "Ing. Biomédico",
+        "linea_investigacion": "Nanomateriales con Propiedades Anticancerígenas",
+        "icon_inv": "Nanomateriales.svg"
+      },
+      {
+        "name":"Rommel Emiliano Reyes Equihua",
+        "foto": "DSC_0610.JPG",
+        "carrera": "Ing. Biomédico",
+        "linea_investigacion": "Nanomateriales con Propiedades Anticancerígenas",
+        "icon_inv": "Nanomateriales.svg"
+      },
+      {
+        "name":"Jose Julián Montalvo Garza",
+        "foto": "DSC_0680.JPG",
+        "carrera": "Ing. en Materiales",
+        "linea_investigacion": "Almacenamiento de Energía",
+        "icon_inv": "AlmacenamientoEnergia.svg"
+      },
+      {
+        "name":"Sebastián Alejandro Solís Quiroz ",
+        "foto": "DSC_0626.JPG",
+        "carrera": "Ing. Biomédico",
+        "linea_investigacion": "Biosensores Elecrtroquímicos",
+        "icon_inv": "BiosensoresElectro2.svg"
+      },
+      {
+        "name":"Oliver Azael Vázquez Juárez",
+        "foto": "DSC_0675.JPG",
+        "carrera": "Ing. Biomédico",
+        "linea_investigacion": "Conversión de Energía",
+        "icon_inv": "ConversionEnergia.svg"
+      },
+      {
+        "name":"Francisco Javier Mendoza Martínez",
+        "foto": "DSC_0658.JPG",
+        "carrera": "Ing. Mecatrónica",
+        "linea_investigacion": "Almacenamiento de Energía",
+        "icon_inv": "AlmacenamientoEnergia.svg"
+      },
+      {
+        "name":"Carlos Alberto Torres Cano",
+        "foto": "DSC_0613.JPG",
+        "carrera": "Ing. Software",
+        "linea_investigacion": "Almacenamiento de Energía",
+        "icon_inv": "AlmacenamientoEnergia.svg"
+      },
+ 
+      {
+        "name":"Eva Paola Zamora Gutiérrez",
+        "foto": "DSC_0619.JPG",
+        "carrera": "Ing. Biomédico",
+        "linea_investigacion": "Nanomateriales con Propiedades Anticancerígenas",
+        "icon_inv": "Nanomateriales.svg"
+      },
+      {
+        "name":"Víctor Manuel Castañeda de León",
+        "foto": "DSC_0619.JPG",
+        "carrera": "Ing. Biomédico",
+        "linea_investigacion": "Nanomateriales con Propiedades Anticancerígenas",
+        "icon_inv": "Nanomateriales.svg"
+      },
+      {
+        "name":"Manuel Esteban Alva González",
+        "foto": "DSC_0667.JPG",
+        "carrera": "Biotecnología Genómica",
+        "linea_investigacion": "Biosensores Elecrtroquímicos",
+        "icon_inv": "BiosensoresElectro2.svg"
+      },
+      {
+        "name":"Debanhi Itzel Pacheco Mendoza",
+        "foto": "DSC_0605.JPG",
+        "carrera": "Biotecnología Genómica",
+        "linea_investigacion": "Biosensores Elecrtroquímicos",
+        "icon_inv": "BiosensoresElectro2.svg"
+      },
+      {
+        "name":"Bryan David Garrido",
+        "foto": "DSC_0673.JPG",
+        "carrera": "Ing. Biomédico",
+        "linea_investigacion": "Actuadores Electroquímicos para Músculos Artificiales",
+        "icon_inv": "MusculosArtificiales.svg"
+      },
+      {
+        "name":"Damián Issac García Marmolejo",
+        "foto": "20230213_122108.jpg",  
+        "carrera": "Biotecnología Genómica",
+        "linea_investigacion": "Biosensores Elecrtroquímicos",
+        "icon_inv": "BiosensoresElectro2.svg"
+      },
+      {
+        "name":"Carlos Enrique Pérez Pérez",
+        "foto": "DSC_0671.JPG",
+        "carrera": "Ing. Biomédico",
+        "linea_investigacion": "Biosensores Elecrtroquímicos",
+        "icon_inv": "BiosensoresElectro2.svg"
+      },
+      {
+        "name":"Jesús Emmanuel Guerrero Cortez",
+        "foto": "20231602.jpeg",
+        "carrera": "Ing. Biomédico",
+        "linea_investigacion": "Conversión de Energía",
+        "icon_inv": "ConversionEnergia.svg"
+      }
+]

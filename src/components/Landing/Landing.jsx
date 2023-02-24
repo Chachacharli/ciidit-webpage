@@ -1,0 +1,42 @@
+import React from "react";
+
+import Logo from '../../assets/Logo200px.png'
+
+import logo4 from '../../assets/logo4-1.png'
+
+import { BgLanding } from "./BgLanding";
+
+import '../../styles/section.css'
+import '../../styles/Landing.css'
+
+export const Landing = ( ) =>{
+    return(
+        <section id="Landing" className="section ">
+            <BgLanding></BgLanding>
+            <div className="conent-landing">
+                <div className="container text-light flex-column h-100 text-center d-flex justify-content-center align-items-center"> 
+                    <div className="row ">
+                        <div className="col">
+                            <img src={logo4} alt=""  style={{width: '150px'}}/>
+                        </div>
+                    </div>
+                    <div className="row ">
+                    <div className="col ">
+                            <h1 className="header-landing fw-bold">Dr Raul Lucio Porto</h1>
+                    </div>
+
+                    </div>
+                    <div className="row">
+                    <div className="col">
+                            <p className="fs-5">Centro de Innovación, Investigación y Desarrollo en Ingeniería y Tecnología</p>
+                            <p className="fs-5">Centro de Inovación en ingeniería de tenología inteligente biomédica y mecatrónica</p>
+                            <p className="fs-5">Facultad de Ingeniería Mecánica y Eléctrica</p>
+                    </div>
+
+                    </div>
+
+                </div>
+            </div>
+        </section>
+    )
+}

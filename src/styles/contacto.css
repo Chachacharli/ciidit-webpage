@@ -1,0 +1,96 @@
+#floatingTextarea2{
+    background-color: #D9D9D9   ;
+}
+
+#floatingInput{
+    background-color: #D9D9D9   ;
+
+}
+#floatingInput2{
+    background-color: #D9D9D9   ;
+
+}
+
+.contacto-container{
+    min-height: 80vh;
+    padding: 50px;
+}
+
+.info-contacto{
+    width: 50%;
+    height: 100%;
+
+}
+
+.form-container{
+    width: 50%;
+    height: 100%;
+}
+
+.redes-container{
+  height: 33%;
+}
+
+.row.ubicaciones-container > .col{
+    height: 33% !important;
+}
+
+.header-ubicacion{
+    font-size: 50px;
+}
+.text-ubicacion{
+    font-size: 20px;
+}
+
+.yt-icon{
+    font-size: 80px;
+    color: #041735;
+    transition: 0.5s;
+    cursor: pointer;
+
+}
+
+.fb-icon{
+    font-size: 80px;
+    color: #041735;
+    transition: 0.5s;
+    cursor: pointer;
+
+}
+
+.yt-icon:hover{
+    color: #092d68;
+}
+
+.fb-icon:hover{
+    font-size: 80px;
+    color: #092d68;
+}
+
+.text-ubicacion.header-place{
+    font-size: 25px;
+    font-weight: 600;
+}
+
+footer{
+    background-color: #1d2e49       ;
+}
+
+i{
+    margin-left: 5px;
+}
+
+.contacto-especial{
+    width: 100px;
+    margin: 0 7px 0 7px;
+}
+
+
+.contacto-especial > img {
+    width: 80px;
+    filter: drop-shadow(0px 5px 15px rgba(0, 0, 0, 0.35));
+    transition: 0.5s;
+}
+.contacto-especial > img:hover {
+    filter: drop-shadow(0px 5px 15px rgba(0, 0, 0, 0.5));
+}

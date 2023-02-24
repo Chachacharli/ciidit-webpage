@@ -1,0 +1,63 @@
+
+.carousel-container-eventos{
+    gap: 25px;
+    height: 60%;
+}
+
+.card-container-evento{
+    width: 22rem;
+    height: 300px;
+    margin: 15px;
+    display: flex;
+
+}
+
+.card.card-evento{
+    width: 12rem;
+    height: 100%;
+}
+
+.eventos-container{
+    height: 90vh;
+}
+
+.dia-evento{
+    height: 80%;
+    width: 100%; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 80px;
+}
+
+.mes-evento{
+    height: 30%;
+    width: 100%; 
+    background-color: #1D2E49;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: aliceblue;
+    font-size: 30px;
+}
+.description-evento{
+    margin-left: 5px;
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 10px;
+}
+
+.name-evento{
+    height: 50%;
+    font-size: 30px;
+}
+
+.info-evento{
+    text-align: left;
+}
+.hora-evento{
+    height: 50%;
+    font-size: 20px;
+}
