@@ -1,8 +1,7 @@
 import React from "react";
 
-import Logo from '../../assets/Logo200px.png'
 
-import logo4 from '../../assets/logo4-1.png'
+import logo4 from '../../assets/logoB1.png'
 
 import { BgLanding } from "./BgLanding";
 
@@ -22,7 +21,7 @@ export const Landing = ( ) =>{
                     </div>
                     <div className="row ">
                     <div className="col ">
-                            <h1 className="header-landing fw-bold">Dr Raul Lucio Porto</h1>
+                            <h1 className="header-landing fw-bold">Dr. Raúl Lucio Porto</h1>
                     </div>
 
                     </div>

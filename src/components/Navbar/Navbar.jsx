@@ -1,11 +1,5 @@
 import React from "react";
-
-import '../../styles/index.css'
-import '../../styles/section.css'
-import { Separator } from "../Headers/Separator";
-import { DotIndex } from "./DotIndex";
-
-
+import { DotIndex } from "../Index/DotIndex";
 const direcciones = [
     {
         name:'Home',
@@ -20,13 +14,13 @@ const direcciones = [
         color: 'color-2'
     },
     {
-        name:'Publicaciones y patentes',
+        name:'Publicaciones',
         icon: ' bi-bookmark-check ',
-        dir: '#ReportesDeInvestigacion',
+        dir: '#Publicaciones',
         color: 'color-31'
     },
     {
-        name:'Líneas de investigación',
+        name:'Líneas ',
         icon: ' bi-journals ',
         dir: '#LineasInvestigacion',
         color: 'color-4'
@@ -38,7 +32,7 @@ const direcciones = [
         color: 'color-5'
     },
     {
-        name:'Próximos eventos',
+        name:'Eventos',
         icon: ' bi-calendar-event ',
         dir: '#Proximoseventos',
         color: 'color-6'
@@ -51,32 +45,28 @@ const direcciones = [
     },
 ]
 
-
-const Indice = () => {
+export const  Navbar  = () =>{
     return(
-        <section id="Indice" className="section"> 
-        <Separator name='Indice'></Separator>
-            <div className="container ">
-
-                    <div className="container-index">
-                        
-                        <div className="row">
-
-                        {
+        
+        <>
+        
+        <div id="container-main-index" className="container-fluid  px-2" >
+            <br />
+            <div className="row d-flex  align-items-center justify-content-center">
+                <div className="container-index d-flex column-gap-5 align-items-center justify-content-center"> 
+                {
                         direcciones.map( 
                             ( elem) =>{                                
                             return(
                             <DotIndex key={elem.color } color={elem.color} dir={elem.dir} icon={ elem.icon} name={ elem.name }  ></DotIndex>
                             )
                         } )
-                        }                        
-                    </div>
+                        } 
+                        </div>
 
-                </div>
-                
+
             </div>
-        </section>
+        </div>
+        </>
     )
 }
-
-export default Indice;

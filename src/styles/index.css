@@ -1,5 +1,10 @@
+#container-main-index{
+  background-color: aliceblue !important;
+  
+}
+
 .container-index{
-    width: 100%;
+    width: 90% !important;
     height: 100%;
     margin: 20px;
     padding: 50px;
@@ -16,8 +21,8 @@
 }
 
 .container-icon{
-    width: 10rem;
-    height: 10rem;  
+    width: 5rem;
+    height: 5rem;  
     border-radius: 50%;
     display: flex;
     align-items: center;
@@ -38,7 +43,7 @@
 
 .icon-indice{
     color: aliceblue;
-    font-size: 80px;
+    font-size: 50px;
     margin: -5px;
 
 }

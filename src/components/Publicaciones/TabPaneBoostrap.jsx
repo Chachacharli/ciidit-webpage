@@ -1,7 +1,7 @@
 import React from "react";
 import {PUBLIS} from '../../Json/PUBLIS'
 
-
+import '../../styles/publicaciones.css'
 const LetParaf = (props) =>{
     return(
         <>

@@ -9,19 +9,17 @@ import { LineasInvestigacion } from './components/LineasInvestigacion/LineasInve
 import { Blog } from './components/Blog/Blog';
 import { Eventos } from './components/Eventos/Eventos';
 import { Contacto } from './components/Contacto/Contacto';
-import { Cita1 } from './components/Citas/Cita1';
 import { Publicaciones } from './components/Publicaciones/Publicaciones';
-
 import { LineaInvestigacion } from './pages/LineaInvestigacion';
-
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
+import { Navbar } from './components/Navbar/Navbar';
 
 const MainPage = () =>{
   return(
     <>
+      <Navbar></Navbar>
       <Landing> </Landing>  
-      <Indice></Indice>
-      <Cita1></Cita1>
+      {/* <Indice></Indice> */}
       <Home></Home>
       <Publicaciones></Publicaciones>
       <Alumnos></Alumnos>
