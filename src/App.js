@@ -13,11 +13,11 @@ import { Publicaciones } from './components/Publicaciones/Publicaciones';
 import { LineaInvestigacion } from './pages/LineaInvestigacion';
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import { Navbar } from './components/Navbar/Navbar';
-
+import { Cita1 } from './components/Citas/Cita1';
 const MainPage = () =>{
   return(
     <>
-      <Navbar></Navbar>
+      {/*<Navbar></Navbar>*/}
       <Landing> </Landing>  
       {/* <Indice></Indice> */}
       <Home></Home>

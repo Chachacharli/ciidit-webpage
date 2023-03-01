@@ -7,6 +7,7 @@ import { Separator } from "../Headers/Separator";
 import Regate from '../../assets/240px-ResearchGate.png'
 import ORCID from '../../assets/512px-ORCID.png'
 import GoogleAca from '../../assets/GoogleAca.png'
+import UANL_LOGO from   '../../assets/UANL.png'
 
 export const Contacto = () =>{
     return(
@@ -17,8 +18,8 @@ export const Contacto = () =>{
                     <div className="col w-100">
                         <div className="row h-100 d-flex flex-column">
                             <div className="col">
-                                <h6 className="header-ubicacion">Ubicanos</h6>
-                                <p className="text-ubicacion header-place">CIIDIT: </p>
+                                <h6 className="header-ubicacion">Ubícanos</h6>
+                                <p className="text-ubicacion header-place">Centro de Innovación, Investigación y Desarrollo en Ingeniería y Tecnología: </p>
                                 <p className="text-ubicacion">PIIT Monterrey, Km. 10, Autopista al Aeropuerto Internacional de Monterrey, Apodaca, Nuevo León, México.</p>
                             </div>
                             <div className="col">
@@ -26,12 +27,15 @@ export const Contacto = () =>{
                                 <p className="text-ubicacion">Pedro de Alba SN, Niños Héroes, Ciudad Universitaria, San Nicolás de los Garza, N.L.  </p>
                             </div>
                             <div className="col">
-                                <h6 className="header-ubicacion">Siguenos</h6>
-                                <div className="social-media d-flex w-100">
-                                    <i class="bi bi-youtube w-25 yt-icon"></i>
-                                    <i class="bi bi-facebook w-25 fb-icon"></i>
-                                </div>
-                                <div className="col ">
+                                <h6 className="header-ubicacion">Síguenos</h6>
+
+                                <div className="col d-flex aling-items-center justify-content-center">
+                                    <a rel="noreferrer" target='_blank' className="contacto-especial" href="https://www.researchgate.net/profile/Raul-Lucio-Porto">
+                                        <i class="bi bi-youtube w-25 yt-icon"></i>
+                                    </a>     
+                                    <a rel="noreferrer" target='_blank' className="contacto-especial" href="https://instagram.com/rrsciencemx?igshid=YmMyMTA2M2Y=">
+                                        <i class="bi bi-instagram w-25 fb-icon"></i>
+                                    </a>
                                     <a rel="noreferrer" target='_blank' className="contacto-especial" href="https://www.researchgate.net/profile/Raul-Lucio-Porto">
                                         <img  src={Regate} alt="" />
                                     </a>
@@ -41,6 +45,9 @@ export const Contacto = () =>{
                                     <a rel="noreferrer" target='_blank' className="contacto-especial" href="https://scholar.google.com/citations?user=anEJefMAAAAJ&hl=es">
                                         <img  src={GoogleAca} alt="" />
                                     </a>
+                                    <a rel="noreferrer" target='_blank' className="contacto-especial" href="https://www.uanl.mx/investigadores/raul-lucio-porto/">
+                                        <img  src={UANL_LOGO} alt="" />
+                                    </a>
                                 </div>
 
                             </div>
@@ -48,7 +55,7 @@ export const Contacto = () =>{
                         </div>
                     </div>
                     <div className="col w-100">
-                        <h6 className="header-ubicacion">Envia un correo</h6>
+                        <h6 className="header-ubicacion">Envía un correo</h6>
                         <div className="form-floating mb-3">
                                 <input type="email" className="form-control " id="floatingInput" placeholder="name@example.com"/>
                                 <label htmlFor="floatingInput">Email address</label>

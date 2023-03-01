@@ -7,13 +7,15 @@ import { BgLanding } from "./BgLanding";
 
 import '../../styles/section.css'
 import '../../styles/Landing.css'
+import { Navbar } from "../Navbar/Navbar";
 
 export const Landing = ( ) =>{
     return(
         <section id="Landing" className="section ">
             <BgLanding></BgLanding>
             <div className="conent-landing">
-                <div className="container text-light flex-column h-100 text-center d-flex justify-content-center align-items-center"> 
+            <Navbar></Navbar>
+                <div className="container text-light flex-column h-50 text-center d-flex justify-content-center align-items-center"> 
                     <div className="row ">
                         <div className="col">
                             <img src={logo4} alt=""  style={{width: '150px'}}/>
@@ -28,7 +30,7 @@ export const Landing = ( ) =>{
                     <div className="row">
                     <div className="col">
                             <p className="fs-5">Centro de Innovación, Investigación y Desarrollo en Ingeniería y Tecnología</p>
-                            <p className="fs-5">Centro de Inovación en ingeniería de tenología inteligente biomédica y mecatrónica</p>
+                            <p className="fs-5">Centro de Inovación en Ingeniería de Tenología Inteligente Biomédica y Mecatrónica</p>
                             <p className="fs-5">Facultad de Ingeniería Mecánica y Eléctrica</p>
                     </div>
 

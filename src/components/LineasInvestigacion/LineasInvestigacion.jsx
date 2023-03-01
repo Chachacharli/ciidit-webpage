@@ -8,7 +8,7 @@ import LINEAS_ACTUALES from '../../Json/LINEAS_ACTUALES.json'
 export const LineasInvestigacion = () =>{
     return(
         <section id="LineasInvestigacion" className="section">
-            <Separator name="Lineas de investigacion"></Separator>
+            <Separator name="Líneas de investigación"></Separator>
             <div className="container">
                 <div className="row gap-0 row-gap-3">
 

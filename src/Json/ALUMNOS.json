@@ -71,15 +71,8 @@
       },
  
       {
-        "name":"Eva Paola Zamora Gutiérrez",
-        "foto": "DSC_0619.JPG",
-        "carrera": "Ing. Biomédico",
-        "linea_investigacion": "Nanomateriales con Propiedades Anticancerígenas",
-        "icon_inv": "Nanomateriales.svg"
-      },
-      {
         "name":"Víctor Manuel Castañeda de León",
-        "foto": "DSC_0619.JPG",
+        "foto": "DSC_0673.JPG",
         "carrera": "Ing. Biomédico",
         "linea_investigacion": "Nanomateriales con Propiedades Anticancerígenas",
         "icon_inv": "Nanomateriales.svg"
@@ -98,13 +91,7 @@
         "linea_investigacion": "Biosensores Elecrtroquímicos",
         "icon_inv": "BiosensoresElectro2.svg"
       },
-      {
-        "name":"Bryan David Garrido",
-        "foto": "DSC_0673.JPG",
-        "carrera": "Ing. Biomédico",
-        "linea_investigacion": "Actuadores Electroquímicos para Músculos Artificiales",
-        "icon_inv": "MusculosArtificiales.svg"
-      },
+
       {
         "name":"Damián Issac García Marmolejo",
         "foto": "20230213_122108.jpg",  

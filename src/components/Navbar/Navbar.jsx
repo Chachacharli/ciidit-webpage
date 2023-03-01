@@ -50,10 +50,10 @@ export const  Navbar  = () =>{
         
         <>
         
-        <div id="container-main-index" className="container-fluid  px-2" >
+        <div className="container-fluid" >
             <br />
-            <div className="row d-flex  align-items-center justify-content-center">
-                <div className="container-index d-flex column-gap-5 align-items-center justify-content-center"> 
+            <div className="row d-flex  align-items-center justify-content-center ">
+                <div className="row container-index d-flex column-gap-5 align-items-center justify-content-center"> 
                 {
                         direcciones.map( 
                             ( elem) =>{                                

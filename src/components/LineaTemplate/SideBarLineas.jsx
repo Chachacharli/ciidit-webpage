@@ -7,7 +7,7 @@ export const SideBarLineas =()=>{
         <div className="col-md-4">
             <div className="position-sticky" style={{top: '2rem'}}>
             <div className="p-4 bg-secondary rounded    ">
-                <h3 className="fst-italic text-light">Otras lineas</h3>
+                <h3 className="text-light">Más líneas:</h3>
                 <ol className="list-unstyled mb-0">
                     {LINEAS_ACTUALES.map((elem)=>{
                         return(

@@ -15,7 +15,7 @@
 
     },
     { 
-        "name":"Nanomateriales con aplicaciones Biomédicas",
+        "name":"Nanomateriales con Propiedades Anticancerígenas",
         "icon":"NanomaterialesW.png",
         "color":"color-3",
         "content": ["Este es un contenido de prueba y ejemplo para la linea de Nanomateriales con aplicaciones Biomédicas", "Pagrafo 2 ", "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed rerum eaque sunt facilis, voluptates ea quaerat totam? Vero beatae, quaerat veritatis eum maxime tenetur, ullam quos reiciendis, nisi officia laudantium?"]
@@ -24,22 +24,22 @@
     },
     { 
         "name":"Biosensores Electroquimicos",
-        "icon":"BiosensoresElectro2W.png",
+        "icon":"path11826.png",
         "color":"color-1",
         "content": ["Este es un contenido de prueba y ejemplo para la linea de Biosensores Electroquimicos", "Pagrafo 2 ", "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed rerum eaque sunt facilis, voluptates ea quaerat totam? Vero beatae, quaerat veritatis eum maxime tenetur, ullam quos reiciendis, nisi officia laudantium?"]
 
     },
     { 
-        "name":"Actuadores electroquimicos",
-        "icon":"BiosensoresElectro2W.png",
+        "name":"Actuadores Electroquímicos",
+        "icon":"MusculosArtificialesW.png",
         "color":"color-2",
         "content": ["Este es un contenido de prueba y ejemplo para la linea de Biosensores Electroquimicos", "Pagrafo 2 ", "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed rerum eaque sunt facilis, voluptates ea quaerat totam? Vero beatae, quaerat veritatis eum maxime tenetur, ullam quos reiciendis, nisi officia laudantium?"]
 
     },
     { 
-        "name":"Actuadores electroquimicos",
-        "icon":"BiosensoresElectro2W.png",
-        "color":"color-2",
+        "name":"Bioelectrónica",
+        "icon":"path5019.png",
+        "color":"color-3",
         "content": ["Este es un contenido de prueba y ejemplo para la linea de Biosensores Electroquimicos", "Pagrafo 2 ", "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed rerum eaque sunt facilis, voluptates ea quaerat totam? Vero beatae, quaerat veritatis eum maxime tenetur, ullam quos reiciendis, nisi officia laudantium?"]
 
     }

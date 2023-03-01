@@ -1,7 +1,7 @@
 export const PUBLIS = [
     { 
         date : "2022", 
-        datos: [ "Julia M Loredo Alejos, Raúl Lucio Porto, Luis López Pavón, Iván E. Moreno Cortez. Pepsin immobilization by electrospinning of poly(vinyl alcohol) nanofibers. Journal of Applied Polymer Science, 139, 51700, 2022" ]
+        datos: [ "Julia M Loredo Alejos, Raúl Lucio Porto, Luis López Pavón, Iván E. Moreno Cortez. Pepsin immobilization by electrospinning of poly(vinyl alcohol) nanofibers. Journal of Applied Polymer Science, 139, 51700, 2022." ]
     },
     {
         date: "2021",
@@ -18,11 +18,11 @@ export const PUBLIS = [
         datos: ["Jorge Alexis Zúñiga Martínez, Raúl Lucio Porto, Iván Eleazar Moreno Cortez, Thierry Brousse, Josué Amilcar Aguilar Martínez, Luis Alberto López Pavón. MnPO4·H2O as Electrode Material for Electrochemical Capacitors. Journal of The Electrochemical Society, 165, A2349-A2356, 2018.",
         "Amine Achour, Raul Lucio-Porto, Shahram Solaymani, Mohammad Islam, Iftikhar Ahmad, Thierry Brousse. Reactive sputtering of vanadium nitride thin films as pseudo-capacitor electrodes for high areal capacitance and cyclic stability. Journal of Materials Science: Materials in Electronics. 29, 13125-13131, 2018.","Amine Achour, Raul Lucio-Porto, Shahram Solaymani, Mohammad Islam, Iftikhar Ahmad, Thierry Brousse. Reactive sputtering of vanadium nitride thin films as pseudo-capacitor electrodes for high areal capacitance and cyclic stability. Journal of Materials Science: Materials in Electronics. 29, 13125-13131, 2018.",
         "Nadir Ouldhamadouche, Amine Achour, Raul Lucio-Porto, Mohammad Islam, Shahram Solaymani, Ali Arman, Azin Ahmadpourian, Hamed Achour, Laurent Le Brizoual, Mohamed Abdou Djouadi, Thierry Brousse. Electrodes based on nano-tree-like vanadium nitride and carbon nanotubes for microsupercapacitors. Journal of materials science & technology, 34, 976-982, 2018.",
-        "Andrea S Rojas-Mercado, Iván E Moreno-Cortez, Raúl Lucio-Porto, Luis López Pavón. Encapsulation and immobilization of ficin extract in electrospun polymeric nanofibers. International journal of biological macromolecules, 118, 2287-2295, 2018",]
+        "Andrea S Rojas-Mercado, Iván E Moreno-Cortez, Raúl Lucio-Porto, Luis López Pavón. Encapsulation and immobilization of ficin extract in electrospun polymeric nanofibers. International journal of biological macromolecules, 118, 2287-2295, 2018.",]
     },
     {
         date: "2017",
-        datos: ["A Achour, Raúl Lucio-Porto, M Chaker, A Arman, A Ahmadpourian, MA Soussou, M Boujtita, L Le Brizoual, MA Djouadi, T Brousse. Titanium vanadium nitride electrode for micro-supercapacitors. Electrochemistry Communications, 77, 40-43, 2017",
+        datos: ["A Achour, Raúl Lucio-Porto, M Chaker, A Arman, A Ahmadpourian, MA Soussou, M Boujtita, L Le Brizoual, MA Djouadi, T Brousse. Titanium vanadium nitride electrode for micro-supercapacitors. Electrochemistry Communications, 77, 40-43, 2017.",
                 "Sofía E Rodríguez‐de Luna, Iván E Moreno Cortez, MA Garza‐Navarro, Raúl Lucio Porto, Luis López Pavón, Virgilio A González‐González. Thermal stability of the immobilization process of horseradish peroxidase in electrospun polymeric nanofibers. Journal of Applied Polymer Science, 134, 19, 44811, 2017.",]
     },
     {

@@ -11,8 +11,7 @@ const Patentes = () =>{
     return(
         <div className="container">
             <div className="row">
-                <div className="col-md-1"></div>
-                <div className="col-md-10">
+                <div className="col-md-12">
                 <ol className="list-group list-group-numbered lista-patentes">
                     <li className="list-group-item d-flex justify-content-between align-items-start item-patente">
                         <div className="ms-2 me-auto">
@@ -42,7 +41,6 @@ const Patentes = () =>{
                     </li>
                     </ol>
                 </div>
-                <div className="col-md-1"></div>
 
             </div>
    
@@ -57,6 +55,8 @@ export const Publicaciones = ()=>{
 
         <section id="Publicaciones" className="section">
             <Separator name='Publicaciones'></Separator>
+            <Cita1></Cita1>
+            <br />
             <div className="container ">
             <div className="d-flex align-items-start">
                 <TabListBoostrap></TabListBoostrap>

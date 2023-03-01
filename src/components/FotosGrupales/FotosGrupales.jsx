@@ -6,7 +6,7 @@ import { Separator } from "../Headers/Separator";
 
 import ImgG from '../../assets/fotos/DSC_0702.JPG'
 import ImgG2 from '../../assets/fotos/DSC_0690.JPG'
-
+import ImgG3 from '../../assets/fotos/DSC_0592.JPG'
 import '../../styles/fotosGrupales.css'
 
 
@@ -48,11 +48,9 @@ export const FotosGrupales = () =>{
                     <img src={ImgG2} className="img-fluid" alt="..."/>
                     </div>
                     <div className="container-imagen-grupal">
-                    <img src={ImgG} className="img-fluid" alt="..."/>
+                    <img src={ImgG3} className="img-fluid" alt="..."/>
                     </div>
-                    <div className="container-imagen-grupal">
-                    <img src={ImgG2} className="img-fluid" alt="..."/>
-                    </div>
+
                 </Carousel>
                 </div>
         </section>
