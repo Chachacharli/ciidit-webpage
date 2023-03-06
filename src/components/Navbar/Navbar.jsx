@@ -11,7 +11,7 @@ const direcciones = [
         color: 'color-1'
     },
     {
-        name:'Estudiantes',
+        name:'Grupo',
         icon: ' bi-book ',
         dir: '#Estudiantes',
         color: 'color-2'

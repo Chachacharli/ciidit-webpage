@@ -8,7 +8,7 @@ const LetParaf = (props) =>{
             { props.arr.datos.map((elem, idx) =>{
                 return(
 
-                    <p>{elem}</p> 
+                    <p>{idx +1}. {elem}</p> 
                     
                 )
             })}
