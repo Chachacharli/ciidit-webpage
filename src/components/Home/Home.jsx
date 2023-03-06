@@ -24,7 +24,7 @@ export const Home = () =>{
                         <div className="row">                        
                                 <div className="col-md-12 ">
                                     <div className="semblaza">
-                                        <h4>Raul Lucio Porto </h4>
+                                        <h4>Raúl Lucio Porto </h4>
                                         <p className="text-justify">Raúl Lucio Porto obtuvo su doctorado en Ciencias con Orientación en Química 
                                             de los Materiales en el 2010 en la Facultad de Ciencias Químicas de la Universidad 
                                             Autónoma de Nuevo León. Realizó un Postdoctorado en la Universidad de Nantes durante 
@@ -40,7 +40,7 @@ export const Home = () =>{
                             </div>
                         <div className="row">
                             <div className="col-md-12 ">
-                                <Highlights icon='bi-search'  color='color-blue' text='Sistema Nacional de Investigadores (SNI) II'></Highlights>
+                                <Highlights icon='bi-search'  color='color-blue' text='Sistema Nacional de Investigadores Nivel II'></Highlights>
                                 <Highlights icon='bi-battery-charging' color='color-ligth-blue' text='Miembro del Consejo Técnico Académico de la RED CONACyT de Almacenamiento de Energía'></Highlights>
                                 <Highlights icon='bi-clipboard2-pulse' color='color-green'   text='Jefe del Departamento de los Laboratorios de Ingeniería Biomédica (FIME UANL)'></Highlights>
 

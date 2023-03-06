@@ -4,10 +4,11 @@ import React from "react";
 import logo4 from '../../assets/logoB1.png'
 
 import { BgLanding } from "./BgLanding";
+import { Navbar } from "../Navbar/Navbar";
+
 
 import '../../styles/section.css'
 import '../../styles/Landing.css'
-import { Navbar } from "../Navbar/Navbar";
 
 export const Landing = ( ) =>{
     return(
@@ -30,8 +31,10 @@ export const Landing = ( ) =>{
                     <div className="row">
                     <div className="col">
                             <p className="fs-5">Centro de Innovación, Investigación y Desarrollo en Ingeniería y Tecnología</p>
-                            <p className="fs-5">Centro de Inovación en Ingeniería de Tenología Inteligente Biomédica y Mecatrónica</p>
+                            <p className="fs-5">Centro de Inovación en Ingeniería de Tecnología Inteligente Biomédica y Mecatrónica</p>
                             <p className="fs-5">Facultad de Ingeniería Mecánica y Eléctrica</p>
+                            <p className="fs-5">UANL</p>
+
                     </div>
 
                     </div>

@@ -1,6 +1,5 @@
 import React from "react";
 import {PUBLIS} from '../../Json/PUBLIS'
-import { Cita1 } from "../Citas/Cita1";
 
 import '../../styles/publicaciones.css'
 const LetParaf = (props) =>{

@@ -1,5 +1,8 @@
 import React from "react";
 import { DotIndex } from "../Index/DotIndex";
+
+import '../../styles/index.css'
+
 const direcciones = [
     {
         name:'Home',
@@ -8,7 +11,7 @@ const direcciones = [
         color: 'color-1'
     },
     {
-        name:'Estudiates',
+        name:'Estudiantes',
         icon: ' bi-book ',
         dir: '#Estudiantes',
         color: 'color-2'
@@ -20,7 +23,7 @@ const direcciones = [
         color: 'color-31'
     },
     {
-        name:'Líneas ',
+        name:'Investigación ',
         icon: ' bi-journals ',
         dir: '#LineasInvestigacion',
         color: 'color-4'
@@ -56,9 +59,9 @@ export const  Navbar  = () =>{
                 <div className="row container-index d-flex column-gap-5 align-items-center justify-content-center"> 
                 {
                         direcciones.map( 
-                            ( elem) =>{                                
+                            ( elem ) =>{                                
                             return(
-                            <DotIndex key={elem.color } color={elem.color} dir={elem.dir} icon={ elem.icon} name={ elem.name }  ></DotIndex>
+                            <DotIndex key={elem.color} color={elem.color} dir={elem.dir} icon={ elem.icon} name={ elem.name }  ></DotIndex>
                             )
                         } )
                         } 

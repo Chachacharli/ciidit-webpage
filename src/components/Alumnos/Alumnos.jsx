@@ -37,7 +37,7 @@ export const Alumnos = ( ) =>{
   
     return(
         <section id="Estudiantes" className="section">
-            <Separator name ='Estudiantes'/>
+            <Separator name ='Grupo'/>
 
             <div className="container">
                 <Carousel 

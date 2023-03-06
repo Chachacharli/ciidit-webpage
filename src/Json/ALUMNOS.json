@@ -1,8 +1,22 @@
 [
+  {
+    "name":"Adela Sánchez Oseguera",
+    "foto": "DSC_0714.jpeg",
+    "carrera": "PhD Student",
+    "linea_investigacion": "Almacenamiento de Energía",
+    "icon_inv": "AlmacenamientoEnergia.svg"
+  },
+  {
+    "name":"Yuridia Torres Martínez",
+    "foto": "DSC_0715.jpeg",
+    "carrera": "PhD Student",
+    "linea_investigacion": "Almacenamiento de Energía",
+    "icon_inv": "AlmacenamientoEnergia.svg"
+  },
     {
-      "name":"Roxana Berlanga Pérez",
-      "foto": "DSC_0618.JPG",
-      "carrera": "Ing. Mecatrónica",
+      "name":"Jorge Alexis Zúñiga Martínez",
+      "foto": "DSC_0716.jpeg",
+      "carrera": "PhD Student",
       "linea_investigacion": "Almacenamiento de Energía",
       "icon_inv": "AlmacenamientoEnergia.svg"
     },

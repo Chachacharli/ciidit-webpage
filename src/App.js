@@ -1,6 +1,5 @@
 import './App.css';
 import { Home } from './components/Home/Home';
-import  Indice  from './components/Index/Indice.jsx';
 import { Landing } from './components/Landing/Landing';
 import { GoBack } from './components/GoBack/GoBack';
 import { Alumnos } from './components/Alumnos/Alumnos';
@@ -12,9 +11,10 @@ import { Contacto } from './components/Contacto/Contacto';
 import { Publicaciones } from './components/Publicaciones/Publicaciones';
 import { LineaInvestigacion } from './pages/LineaInvestigacion';
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
-import { Navbar } from './components/Navbar/Navbar';
-import { Cita1 } from './components/Citas/Cita1';
+
+
 const MainPage = () =>{
+
   return(
     <>
       {/*<Navbar></Navbar>*/}
@@ -28,7 +28,7 @@ const MainPage = () =>{
       <Blog></Blog>
       <Eventos></Eventos>
       <Contacto></Contacto>
-      <GoBack/>  
+      <GoBack href='#Home'/>  
     </>
   )
 }
@@ -38,9 +38,9 @@ function App() {
   
   return (
     <BrowserRouter>
-      <Routes>
+      <Routes >
         <Route path='/' element={<MainPage/>} ></Route> 
-        <Route path='/Linea/:name' element={<LineaInvestigacion/>}></Route>
+        <Route path='/Linea/:name' element={<LineaInvestigacion />}></Route>
         <Route path='/Blog/:name-blog'></Route>
         <Route path='*' element={ <h1> NOT FOUND </h1> }></Route>
       </Routes>

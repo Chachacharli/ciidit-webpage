@@ -1,46 +1,19 @@
-import { Link } from 'react-router-dom'
-
 import { Footer } from '../Footer/Footer'
 import { SideBarLineas } from './SideBarLineas'
 import { PostMetaData } from './PostMetaData'
 import { BlogParagraph } from './BLogParagraph'
-
-import { useState, useEffect } from 'react'
-
-
 import DSC_0702 from '../../assets/fotos/DSC_0702.JPG'
-
 import '../../styles/lineaInvestigaciontemplate.css'
 import { AlumnosRelacionados } from './AlumnosRelacionados'
 
-export const LineaTemplate = ( params) =>{
-    const [data,setData]=useState([]);
-    const getData =()=>{
-       fetch('../../src/Json/LINEAS_ACTUALES.json', 
-           {
-               headers : { 
-                 'Content-Type': 'application/json',
-                 'Accept': 'application/json'
-                }
-             })
 
-       .then(function(response){
-           console.log(response)
-           return response.json();     
-         })
-         .then(function(myJson) {
-           console.log(myJson);
-           setData(myJson)
-         });
-     }
-     useEffect(()=>{
-       getData()
-     },[])
-
+export const LineaTemplate = ( params, {data}) =>{
+    window.scrollTo(0,0);
+    
 
     return(
         <>
-        {console.log(data)}
+        {data ? console.log(data): console.log('NO se ha encontrado nada')}
         <section className="section-linea-investigacion">
         <br />
 
@@ -52,7 +25,7 @@ export const LineaTemplate = ( params) =>{
 
                 <div className="row g-5">
                     <div className="img-article-container">
-                        <h1> {params.linea}</h1>
+                        <h1> {params.linea} </h1>
                         <img src={DSC_0702} className="img-thumbnail" alt="..."/>
                     </div>
                     
@@ -76,7 +49,6 @@ export const LineaTemplate = ( params) =>{
         <Footer></Footer>
 
         </section>
-
         </>
     )
 }
