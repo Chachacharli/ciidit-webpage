@@ -30,7 +30,7 @@ export const Contacto = () =>{
                                 <h6 className="header-ubicacion">Síguenos</h6>
 
                                 <div className="col d-flex aling-items-center justify-content-center">
-                                    <a rel="noreferrer" target='_blank' className="contacto-especial" href="https://www.researchgate.net/profile/Raul-Lucio-Porto">
+                                    <a rel="noreferrer" target='_blank' className="contacto-especial" href="https://l.instagram.com/?u=https%3A%2F%2Fwww.youtube.com%2Fchannel%2FUCUWKn6rICa63UH2F6Idc4rQ%2Ffeatured&e=AT1xlc6AmIhG2m0Yy0cVuwgvxyhmsQ74FUkM_OA1T0ijTtyCnPBEhb0jEWXfzTNLmdwFAL95CDo5s_zMmnAlMQspekLmKbUd-fuVYE3uZxtUUScB">
                                         <i class="bi bi-youtube w-25 yt-icon"></i>
                                     </a>     
                                     <a rel="noreferrer" target='_blank' className="contacto-especial" href="https://instagram.com/rrsciencemx?igshid=YmMyMTA2M2Y=">
