@@ -10,6 +10,7 @@ import { Eventos } from './components/Eventos/Eventos';
 import { Contacto } from './components/Contacto/Contacto';
 import { Publicaciones } from './components/Publicaciones/Publicaciones';
 import { LineaInvestigacion } from './pages/LineaInvestigacion';
+import { Colaboradores } from './components/Colaboradores/Colaboradores';
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 
 
@@ -25,6 +26,7 @@ const MainPage = () =>{
       <Alumnos></Alumnos>
       <FotosGrupales></FotosGrupales>
       <LineasInvestigacion></LineasInvestigacion>
+      <Colaboradores/>
       <Blog></Blog>
       <Eventos></Eventos>
       <Contacto></Contacto>

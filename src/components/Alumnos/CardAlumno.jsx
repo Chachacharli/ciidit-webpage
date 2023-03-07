@@ -17,6 +17,6 @@ export const CardAlumno = (props) =>{
             <small className="card-text text-center linea-inv-text">{props.linea}</small>
         </div>
     </div>
-    )
+    ) 
 }
 
