@@ -1,6 +1,9 @@
 import React from "react"
 import { Separator } from "../Headers/Separator"
 import { CardColaborador } from "./CardColaborador"
+
+
+
 export const Colaboradores = () =>{
     return(
 

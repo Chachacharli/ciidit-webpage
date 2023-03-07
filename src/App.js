@@ -11,6 +11,7 @@ import { Contacto } from './components/Contacto/Contacto';
 import { Publicaciones } from './components/Publicaciones/Publicaciones';
 import { LineaInvestigacion } from './pages/LineaInvestigacion';
 import { Colaboradores } from './components/Colaboradores/Colaboradores';
+import { TodasLasEntradas } from './components/TodasLasEntradas/TodasLasEntradas';
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 
 
@@ -45,6 +46,7 @@ function App() {
         <Route path='/Linea/:name' element={<LineaInvestigacion />}></Route>
         <Route path='/Blog/:name-blog'></Route>
         <Route path='*' element={ <h1> NOT FOUND </h1> }></Route>
+        <Route path='/Entradas'  element={<TodasLasEntradas />}></Route>
       </Routes>
     </BrowserRouter>
   );

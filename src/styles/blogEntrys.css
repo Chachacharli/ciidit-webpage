@@ -1,0 +1,52 @@
+.entry-log{
+    transition: .3s;
+    cursor: pointer;
+}
+
+.entry-log:hover{
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.35);
+}
+
+ul{
+    padding-left:0 !important;
+}
+
+.tag-entry{
+    list-style: none;
+    color: aqua !important;
+
+}
+
+
+input[type=checkbox] {
+    display: none;
+    transition: 0.3s;
+
+}
+
+label{
+    margin: 5px;
+    cursor: pointer;
+}
+
+label :checked + span {
+    background-color: #1D2E49  ;
+    color: white;
+    transition: 0.3s;
+
+}
+
+label span {
+    display: inline-block;
+    background: lightgrey;
+
+    line-height: 2em;
+    text-align: center;
+    padding: 2px 5px 2px 5px;
+    border-radius: 10px;
+
+}
+
+.filtros{
+    padding: 5px;
+}
