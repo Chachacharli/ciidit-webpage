@@ -1,7 +1,4 @@
-#container-main-index{
-  background-color: aliceblue !important;
-  
-}
+
 
 .container-index{
     width: 90% !important;
@@ -81,6 +78,20 @@
 
 }
 
+@media (max-width: 700px){
+  #container-index-media  {
+    display: none !important;
+  } 
+
+}
+
+@media (max-width: 1025px) {
+  .tittle-dot{
+    font-size: 15px !important;
+  }
+  
+}
+
 @keyframes shake {
     10%, 90% {
       transform: translate3d(-1px, 0, 0);
@@ -98,3 +109,4 @@
       transform: translate3d(4px, 0, 0);
     }
   }
+

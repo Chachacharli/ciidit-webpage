@@ -46,9 +46,9 @@ export const Alumnos = ( ) =>{
                 containerClass="carousel-container"
                 > 
                     { 
-                      ALUMNOS.map( (elem) =>{
+                      ALUMNOS.map( (elem, idx) =>{
                       return(
-                          <CardAlumno key={elem}  name ={elem.name} icono={elem.icon_inv} foto={elem.foto} uni={elem.carrera} linea={elem.linea_investigacion}></CardAlumno>
+                          <CardAlumno idx={idx} key={elem}  name ={elem.name} icono={elem.icon_inv} foto={elem.foto} uni={elem.carrera} linea={elem.linea_investigacion}></CardAlumno>
                         )
                       })}
 

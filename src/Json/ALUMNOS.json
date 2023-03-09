@@ -1,102 +1,119 @@
 [
   {
-    "name":"Adela Sánchez Oseguera",
-    "foto": "DSC_0714.jpeg",
+    "name":"Roxana Berlanga Pérez",
+    "foto": "DSC_0618.JPG",
+    "carrera": "Ing. Mecatrónica",
+    "linea_investigacion": "Almacenamiento de Energía",
+    "icon_inv": "AlmacenamientoEnergia.svg"
+  },
+  {
+    "name":"Francisco Sebastián Elizondo Castillo",
+    "foto": "DSC_0636.JPG",
+    "carrera": "MC Student",
+    "linea_investigacion": "Almacenamiento de Energía",
+    "icon_inv": "AlmacenamientoEnergia.svg"
+  },
+  {
+    "name":"Francisco Javier Mendoza Martínez",
+    "foto": "DSC_0717.jpeg",
+    "carrera": "Ing. Mecatrónica",
+    "linea_investigacion": "Almacenamiento de Energía",
+    "icon_inv": "AlmacenamientoEnergia.svg"
+  },
+  {
+    "name":"Carlos Alberto Torres Cano",
+    "foto": "DSC_0613.JPG",
+    "carrera": "Ing. Software",
+    "linea_investigacion": "Almacenamiento de Energía",
+    "icon_inv": "AlmacenamientoEnergia.svg"
+  },
+  {
+    "name":"Jose Julián Montalvo Garza",
+    "foto": "DSC_0680.JPG",
+    "carrera": "Ing. en Materiales",
+    "linea_investigacion": "Almacenamiento de Energía",
+    "icon_inv": "AlmacenamientoEnergia.svg"
+  },
+  {
+    "name":"Jorge Alexis Zúñiga Martínez",
+    "foto": "DSC_0716.jpeg",
     "carrera": "PhD Student",
     "linea_investigacion": "Almacenamiento de Energía",
     "icon_inv": "AlmacenamientoEnergia.svg"
   },
   {
+    "name":"Paola Daresi Navarro Leal",
+    "foto": "DSC_0608.JPG",
+    "carrera": "Ing. Biomédico",
+    "linea_investigacion": "Conversión de Energía",
+    "icon_inv": "ConversionEnergia.svg"
+  },
+  {
+    "name":"Oliver Azael Vázquez Juárez",
+    "foto": "DSC_0675.JPG",
+    "carrera": "Ing. Biomédico",
+    "linea_investigacion": "Conversión de Energía",
+    "icon_inv": "ConversionEnergia.svg"
+  },
+  {
+    "name":"Jesús Emmanuel Guerrero Cortez",
+    "foto": "20231602.jpeg",
+    "carrera": "Ing. Biomédico",
+    "linea_investigacion": "Conversión de Energía",
+    "icon_inv": "ConversionEnergia.svg"
+  },
+  { 
+    "name":"Adela Sánchez Oseguera",
+    "foto": "DSC_0714.jpeg",
+    "carrera": "PhD",
+    "linea_investigacion": "Nanomateriales con Propiedades Farmacológicas",
+    "icon_inv": "Nanomateriales.svg"
+  },
+  {
     "name":"Yuridia Torres Martínez",
     "foto": "DSC_0715.jpeg",
     "carrera": "PhD Student",
-    "linea_investigacion": "Almacenamiento de Energía",
-    "icon_inv": "AlmacenamientoEnergia.svg"
+    "linea_investigacion": "Nanomateriales con Propiedades Farmacológicas",
+    "icon_inv": "Nanomateriales.svg"
   },
-    {
-      "name":"Jorge Alexis Zúñiga Martínez",
-      "foto": "DSC_0716.jpeg",
-      "carrera": "PhD Student",
-      "linea_investigacion": "Almacenamiento de Energía",
-      "icon_inv": "AlmacenamientoEnergia.svg"
-    },
-    {
-        "name":"Francisco Sebastián Elizondo Castillo",
-        "foto": "DSC_0636.JPG",
-        "carrera": "MC Student",
-        "linea_investigacion": "Almacenamiento de Energía",
-        "icon_inv": "AlmacenamientoEnergia.svg"
-      },
-      {
-        "name":"Paola Daresi Navarro Leal",
-        "foto": "DSC_0608.JPG",
-        "carrera": "Ing. Biomédico",
-        "linea_investigacion": "Conversión de Energía",
-        "icon_inv": "ConversionEnergia.svg"
-      },
-      {
-        "name":"David Lázaro Tristán",
-        "foto": "DSC_0638.JPG",
-        "carrera": "Ing. Biomédico",
-        "linea_investigacion": "Nanomateriales con Propiedades Anticancerígenas",
-        "icon_inv": "Nanomateriales.svg"
-      },
+
+
+  {
+    "name":"Diana Patricia Peña Perez",
+    "foto": "DSC_0619.JPG",
+    "carrera": "MC Student",
+    "linea_investigacion": "Nanomateriales con Propiedades Farmacológicas",
+    "icon_inv": "Nanomateriales.svg"
+  },
+
+  {
+    "name":"David Lázaro Tristán",
+    "foto": "DSC_0638.JPG",
+    "carrera": "Ing. Biomédico",
+    "linea_investigacion": "Nanomateriales con Propiedades Farmacológicas",
+    "icon_inv": "Nanomateriales.svg"
+  },
       {
         "name":"Rommel Emiliano Reyes Equihua",
         "foto": "DSC_0610.JPG",
         "carrera": "Ing. Biomédico",
-        "linea_investigacion": "Nanomateriales con Propiedades Anticancerígenas",
+        "linea_investigacion": "Nanomateriales con Propiedades  Farmacológicas",
         "icon_inv": "Nanomateriales.svg"
-      },
-      {
-        "name":"Jose Julián Montalvo Garza",
-        "foto": "DSC_0680.JPG",
-        "carrera": "Ing. en Materiales",
-        "linea_investigacion": "Almacenamiento de Energía",
-        "icon_inv": "AlmacenamientoEnergia.svg"
-      },
-      {
-        "name":"Sebastián Alejandro Solís Quiroz ",
-        "foto": "DSC_0626.JPG",
-        "carrera": "Ing. Biomédico",
-        "linea_investigacion": "Biosensores Elecrtroquímicos",
-        "icon_inv": "BiosensoresElectro2.svg"
-      },
-      {
-        "name":"Oliver Azael Vázquez Juárez",
-        "foto": "DSC_0675.JPG",
-        "carrera": "Ing. Biomédico",
-        "linea_investigacion": "Conversión de Energía",
-        "icon_inv": "ConversionEnergia.svg"
-      },
-      {
-        "name":"Francisco Javier Mendoza Martínez",
-        "foto": "DSC_0658.JPG",
-        "carrera": "Ing. Mecatrónica",
-        "linea_investigacion": "Almacenamiento de Energía",
-        "icon_inv": "AlmacenamientoEnergia.svg"
-      },
-      {
-        "name":"Diana Patricia Peña Perez",
-        "foto": "DSC_0619.JPG",
-        "carrera": "MC Student",
-        "linea_investigacion": "Almacenamiento de Energía",
-        "icon_inv": "AlmacenamientoEnergia.svg"
-      },
-      {
-        "name":"Carlos Alberto Torres Cano",
-        "foto": "DSC_0613.JPG",
-        "carrera": "Ing. Software",
-        "linea_investigacion": "Almacenamiento de Energía",
-        "icon_inv": "AlmacenamientoEnergia.svg"
       },
  
       {
         "name":"Víctor Manuel Castañeda de León",
         "foto": "DSC_0673.JPG",
         "carrera": "Ing. Biomédico",
-        "linea_investigacion": "Nanomateriales con Propiedades Anticancerígenas",
+        "linea_investigacion": "Nanomateriales con Propiedades  Farmacológicas",
         "icon_inv": "Nanomateriales.svg"
+      },
+      {
+        "name":"Carlos Enrique Pérez Pérez",
+        "foto": "DSC_0671.JPG",
+        "carrera": "Ing. Biomédico",
+        "linea_investigacion": "Biosensores Elecrtroquímicos",
+        "icon_inv": "BiosensoresElectro2.svg"
       },
       {
         "name":"Manuel Esteban Alva González",
@@ -119,19 +136,7 @@
         "carrera": "Biotecnología Genómica",
         "linea_investigacion": "Biosensores Elecrtroquímicos",
         "icon_inv": "BiosensoresElectro2.svg"
-      },
-      {
-        "name":"Carlos Enrique Pérez Pérez",
-        "foto": "DSC_0671.JPG",
-        "carrera": "Ing. Biomédico",
-        "linea_investigacion": "Biosensores Elecrtroquímicos",
-        "icon_inv": "BiosensoresElectro2.svg"
-      },
-      {
-        "name":"Jesús Emmanuel Guerrero Cortez",
-        "foto": "20231602.jpeg",
-        "carrera": "Ing. Biomédico",
-        "linea_investigacion": "Conversión de Energía",
-        "icon_inv": "ConversionEnergia.svg"
       }
+
+
 ]

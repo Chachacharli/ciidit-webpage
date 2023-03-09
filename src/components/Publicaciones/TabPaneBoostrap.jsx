@@ -16,11 +16,12 @@ const LetParaf = (props) =>{
     )
 }
 
+
+
 export const TabPaneBoostrap = ()=>{
     return(
         
         <div className="tab-content" id="v-pills-tabContent">
-            <br />
             <div className="tab-pane fade show active" id="v-pills-home-0" role="tabpanel" aria-labelledby="v-pills-home-tab" tabIndex="0">
                 <LetParaf arr={PUBLIS[0]}> </LetParaf>
             </div>

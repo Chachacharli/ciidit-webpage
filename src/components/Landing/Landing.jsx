@@ -16,7 +16,8 @@ export const Landing = ( ) =>{
             <BgLanding></BgLanding>
             <div className="conent-landing">
             <Navbar></Navbar>
-                <div className="container text-light flex-column h-50 text-center d-flex justify-content-center align-items-center"> 
+
+                <div className="container text-light flex-column  text-center d-flex justify-content-center align-items-center"> 
                     <div className="row ">
                         <div className="col">
                             <img src={logo4} alt=""  style={{width: '150px'}}/>

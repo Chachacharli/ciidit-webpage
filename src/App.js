@@ -31,7 +31,7 @@ const MainPage = () =>{
       <Blog></Blog>
       <Eventos></Eventos>
       <Contacto></Contacto>
-      <GoBack href='#Home'/>  
+      <GoBack href='#Landing'/>  
     </>
   )
 }

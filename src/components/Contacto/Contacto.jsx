@@ -3,11 +3,8 @@ import React from "react";
 import '../../styles/contacto.css'
 import { Footer } from "../Footer/Footer";
 import { Separator } from "../Headers/Separator";
+import { ContactoLinks } from "./ContactosLinks";
 
-import Regate from '../../assets/240px-ResearchGate.png'
-import ORCID from '../../assets/512px-ORCID.png'
-import GoogleAca from '../../assets/GoogleAca.png'
-import UANL_LOGO from   '../../assets/UANL.png'
 
 export const Contacto = () =>{
     return(
@@ -26,29 +23,9 @@ export const Contacto = () =>{
                                 <p className="text-ubicacion header-place">Centro de Inovación en ingeniería de tenología inteligente biomédica y mecatrónica:</p>
                                 <p className="text-ubicacion">Pedro de Alba SN, Niños Héroes, Ciudad Universitaria, San Nicolás de los Garza, N.L.  </p>
                             </div>
-                            <div className="col">
-                                <h6 className="header-ubicacion">Síguenos</h6>
-
-                                <div className="col d-flex aling-items-center justify-content-center">
-                                    <a rel="noreferrer" target='_blank' className="contacto-especial" href="https://l.instagram.com/?u=https%3A%2F%2Fwww.youtube.com%2Fchannel%2FUCUWKn6rICa63UH2F6Idc4rQ%2Ffeatured&e=AT1xlc6AmIhG2m0Yy0cVuwgvxyhmsQ74FUkM_OA1T0ijTtyCnPBEhb0jEWXfzTNLmdwFAL95CDo5s_zMmnAlMQspekLmKbUd-fuVYE3uZxtUUScB">
-                                        <i class="bi bi-youtube w-25 yt-icon"></i>
-                                    </a>     
-                                    <a rel="noreferrer" target='_blank' className="contacto-especial" href="https://instagram.com/rrsciencemx?igshid=YmMyMTA2M2Y=">
-                                        <i class="bi bi-instagram w-25 fb-icon"></i>
-                                    </a>
-                                    <a rel="noreferrer" target='_blank' className="contacto-especial" href="https://www.researchgate.net/profile/Raul-Lucio-Porto">
-                                        <img  src={Regate} alt="" />
-                                    </a>
-                                    <a rel="noreferrer" target='_blank' className="contacto-especial" href="https://orcid.org/0000-0002-6894-9066">
-                                        <img  src={ORCID} alt="" />
-                                    </a>
-                                    <a rel="noreferrer" target='_blank' className="contacto-especial" href="https://scholar.google.com/citations?user=anEJefMAAAAJ&hl=es">
-                                        <img  src={GoogleAca} alt="" />
-                                    </a>
-                                    <a rel="noreferrer" target='_blank' className="contacto-especial" href="https://www.uanl.mx/investigadores/raul-lucio-porto/">
-                                        <img  src={UANL_LOGO} alt="" />
-                                    </a>
-                                </div>
+                            <div className="col d-flex flex-column justify-content-start">
+                                <h6 className="header-ubicacion d-flex align-items-start ">Síguenos</h6>
+                                <ContactoLinks></ContactoLinks>
 
                             </div>
 
@@ -70,7 +47,29 @@ export const Contacto = () =>{
                             <label htmlFor="floatingTextarea2">Comments</label>
                         </div>
                         <br />
-                        <div className="btn btn-dark w-50">Enviar</div>
+
+
+                        <div className="row">
+                            <div className="col-md-12">
+
+                            <div className="btn btn-dark w-50">Enviar</div>
+
+                            </div>
+
+                        </div>
+                        <div className="row d-flex justify-content-end h-50">
+                            <div className="col-md-3 d-flex h-100 align-items-center">
+                                <a rel="noreferrer" target='_blank' className="contacto-especial" href="https://l.instagram.com/?u=https%3A%2F%2Fwww.youtube.com%2Fchannel%2FUCUWKn6rICa63UH2F6Idc4rQ%2Ffeatured&e=AT1xlc6AmIhG2m0Yy0cVuwgvxyhmsQ74FUkM_OA1T0ijTtyCnPBEhb0jEWXfzTNLmdwFAL95CDo5s_zMmnAlMQspekLmKbUd-fuVYE3uZxtUUScB">
+                                    <i class="bi bi-youtube w-25 yt-icon"></i>
+                                </a>     
+                            </div>
+                            <div className="col-md-3 d-flex align-self-end h-100 align-items-center">
+                            <a rel="noreferrer" target='_blank' className="contacto-especial" href="https://instagram.com/rrsciencemx?igshid=YmMyMTA2M2Y=">
+                                    <i class="bi bi-instagram w-25 fb-icon"></i>
+                                </a>
+                            </div>
+                        </div>
+
                     </div>
                 </div>
             </div>

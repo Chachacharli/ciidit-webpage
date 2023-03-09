@@ -13,15 +13,15 @@ const responsive = {
     superLargeDesktop: {
       // the naming can be any, depends on you.
       breakpoint: { max: 4000, min: 3000 },
-      items: 3
+      items: 2
     },
     desktop: {
       breakpoint: { max: 3000, min: 1024 },
-      items: 3
+      items: 2
     },
     tablet: {
       breakpoint: { max: 1024, min: 464 },
-      items: 3
+      items: 2
     },
     mobile: {
       breakpoint: { max: 464, min: 0 },
@@ -41,13 +41,10 @@ export const Eventos = () =>{
                     partialVisible={false}
                     >
 
-                    <CardEvento></CardEvento>
-                    <CardEvento></CardEvento>
-                    <CardEvento></CardEvento>
-                    <CardEvento></CardEvento>
-
-                        
-                    </Carousel>
+                    <CardEvento tittle={'Seminario de nanotecnología'} description={'Cada miércoles en sala de viodeconferencias CIIDIT'}  day={'M'} mes={'Marzo'} hour={'11:00'} ></CardEvento>
+                    <CardEvento tittle={'Curso de Python '} description={'Cada miércoles en sala de viodeconferencias CIIDIT'}  day={'M'} mes={'Marzo'} hour={'12:00'}></CardEvento>                        
+                
+                </Carousel>
             </div>
 
         </section>

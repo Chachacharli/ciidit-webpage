@@ -2,10 +2,13 @@
 .carousel-container-eventos{
     gap: 25px;
     height: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .card-container-evento{
-    width: 22rem;
+    width: 25rem;
     height: 300px;
     margin: 15px;
     display: flex;
@@ -13,7 +16,7 @@
 }
 
 .card.card-evento{
-    width: 12rem;
+    width: 13rem;
     height: 100%;
 }
 
@@ -55,7 +58,7 @@
 }
 
 .info-evento{
-    text-align: left;
+    text-align: justify;
 }
 .hora-evento{
     height: 50%;
