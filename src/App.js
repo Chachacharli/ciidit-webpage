@@ -13,6 +13,7 @@ import { LineaInvestigacion } from './pages/LineaInvestigacion';
 import { Colaboradores } from './components/Colaboradores/Colaboradores';
 import { TodasLasEntradas } from './components/TodasLasEntradas/TodasLasEntradas';
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
+import { Proyectos } from './components/Proyectos/Proyectos';
 
 
 const MainPage = () =>{
@@ -23,6 +24,7 @@ const MainPage = () =>{
       <Landing> </Landing>  
       {/* <Indice></Indice> */}
       <Home></Home>
+      <Proyectos></Proyectos>
       <Publicaciones></Publicaciones>
       <Alumnos></Alumnos>
       <FotosGrupales></FotosGrupales>
