@@ -17,6 +17,7 @@ import { Proyectos } from './components/Proyectos/Proyectos';
 
 
 const MainPage = () =>{
+  window.scrollTo(0,0);
 
   return(
     <>
