@@ -1,15 +1,18 @@
 import React from "react";
 import {PUBLIS} from '../../Json/PUBLIS'
 
+
 import '../../styles/publicaciones.css'
 const LetParaf = (props) =>{
+
+
     return(
         <>
             { props.arr.datos.map((elem, idx) =>{
                 return(
 
-                    <p>{idx +1}. {elem}</p> 
-                    
+                    <><a href={elem.url} className="paper-text"> {idx +1}. {elem.tittle}</a> <br /><br /></>
+                                     
                 )
             })}
         </>
