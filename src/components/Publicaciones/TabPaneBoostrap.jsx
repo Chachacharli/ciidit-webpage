@@ -11,7 +11,7 @@ const LetParaf = (props) =>{
             { props.arr.datos.map((elem, idx) =>{
                 return(
 
-                    <><a href={elem.url} className="paper-text"> {idx +1}. {elem.tittle}</a> <br /><br /></>
+                    <><a target="_blank" rel="noreferrer" href={elem.url} className="paper-text"> {idx +1}. {elem.tittle}</a> <br /><br /></>
                                      
                 )
             })}

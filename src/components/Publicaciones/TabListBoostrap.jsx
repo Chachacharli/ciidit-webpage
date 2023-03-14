@@ -1,8 +1,10 @@
 import React from "react";
 
 import {PUBLIS} from '../../Json/PUBLIS'
-
 const ButtonsTabs = ()=>{
+
+ 
+ 
     return(
         <div>
             {PUBLIS.map((elem, idx) =>{
@@ -13,6 +15,7 @@ const ButtonsTabs = ()=>{
         </div>
     )   
 
+     
 }
 
 export const TabListBoostrap = ()=>{
