@@ -12,7 +12,7 @@ export const PUBLIS = [
         datos: [
             {
                 "tittle": "Jorge Alexis Zuñiga Martínez, Sara Elena González Náñez, Etienne LeCalvez, Raúl Lucio Porto, Iván Eleazar Moreno Cortez, Thierry Brousse, Luis Alberto López. Layered Vanadium Phosphates asElectrodes for Electorchemical Capacitors Part II: The Case of VOPO4·CTAB and K0.5VOPO4·1.5H2O. Journal of the Electrochemical Society. 168, 090520, 2021.",
-                "url": "https://iopscience.iop.org/article/10.1149/1945-7111/ac11a3/meta"
+                "url": "https://iopscience.iop.org/article/10.1149/1945-7111/ac23a0"
             },
             {
                 "tittle":"Jorge Alexis Zuñiga Martínez, Sara Elena González Náñez, Etienne LeCalvez, Raúl Lucio Porto, Iván Eleazar Moreno Cortez, Thierry Brousse, Luis Alberto López. Layered Vanadium Phosphates asElectrodes for Electorchemical Capacitors Part I: The Case of VOPO4·2H2O. Journal of the Electrochemical Society. 168, 070531, 2021.",
@@ -42,10 +42,7 @@ export const PUBLIS = [
                 "tittle":"Jorge Alexis Zúñiga Martínez, Raúl Lucio Porto, Iván Eleazar Moreno Cortez, Thierry Brousse, Josué Amilcar Aguilar Martínez, Luis Alberto López Pavón. MnPO4·H2O as Electrode Material for Electrochemical Capacitors. Journal of The Electrochemical Society, 165, A2349-A2356, 2018.",
                 "url": "https://iopscience.iop.org/article/10.1149/2.1281810jes/meta"
             },
-            {
-                "tittle": "Amine Achour, Raul Lucio-Porto, Shahram Solaymani, Mohammad Islam, Iftikhar Ahmad, Thierry Brousse. Reactive sputtering of vanadium nitride thin films as pseudo-capacitor electrodes for high areal capacitance and cyclic stability. Journal of Materials Science: Materials in Electronics. 29, 13125-13131, 2018.",
-                "url": "https://www.springerprofessional.de/en/reactive-sputtering-of-vanadium-nitride-thin-films-as-pseudo-cap/15830112"  
-            },
+
             {
                 "tittle": "Amine Achour, Raul Lucio-Porto, Shahram Solaymani, Mohammad Islam, Iftikhar Ahmad, Thierry Brousse. Reactive sputtering of vanadium nitride thin films as pseudo-capacitor electrodes for high areal capacitance and cyclic stability. Journal of Materials Science: Materials in Electronics. 29, 13125-13131, 2018.",
                 "url": "https://www.springerprofessional.de/en/reactive-sputtering-of-vanadium-nitride-thin-films-as-pseudo-cap/15830112"                
@@ -66,7 +63,7 @@ export const PUBLIS = [
         datos: [
             {
                 "tittle": " A Achour, Raúl Lucio-Porto, M Chaker, A Arman, A Ahmadpourian, MA Soussou, M Boujtita, L Le Brizoual, MA Djouadi, T Brousse. Titanium vanadium nitride electrode for micro-supercapacitors. Electrochemistry Communications, 77, 40-43, 2017.",
-                "url": "https://hal-univ-rennes1.archives-ouvertes.fr/hal-01484528"
+                "url": "https://www.sciencedirect.com/science/article/pii/S1388248117300437"
             },
             {
                 "tittle": "Sofía E Rodríguez‐de Luna, Iván E Moreno Cortez, MA Garza‐Navarro, Raúl Lucio Porto, Luis López Pavón, Virgilio A González‐González. Thermal stability of the immobilization process of horseradish peroxidase in electrospun polymeric nanofibers. Journal of Applied Polymer Science, 134, 19, 44811, 2017.",
@@ -120,7 +117,7 @@ export const PUBLIS = [
         datos:[
             {
                 "tittle": "Etienne Eustache, Renaud Frappier, Raúl Lucio Porto, Saïd Bouhtiyya, Jean-François Pierson, Thierry Brousse. Asymmetric electrochemical capacitor microdevice designed with vanadium nitride and nickel oxide thin film electrodes. Electrochemistry Communications, 28, 104-106, 2013.",
-                "url": "https://www.infona.pl/resource/bwmeta1.element.elsevier-5afe7a63-67b6-3b8f-9173-f4890651136f"
+                "url": "https://www.sciencedirect.com/science/article/pii/S1388248112005449"
 
             },
             {
@@ -138,10 +135,6 @@ export const PUBLIS = [
     {
         date: "2012",
         datos: [
-            {
-                "tittle": "Raúl Lucio Porto, Luis Carlos Torres González. Síntesis de óxido de manganeso nanoestructurado para capacitores electroquímicos. Ingenierías, 12, 42-49, 2009.",
-                "url": "https://www.sciencedirect.com/science/article/abs/pii/S0013468612007979",
-            },
             {
                 "tittle": "R Lucio-Porto, I Gómez. Synthesis of Manganese Oxide Nanocompounds for Electrodes in Electrochemical Capacitors. 42, 833-838, 2012.",
                 "url": "https://www.tandfonline.com/doi/abs/10.1080/15533174.2011.618477"

@@ -25,7 +25,7 @@ const PROYECTOS = [
 
 export const Proyectos = () =>{
     return(
-        <section className="section">
+        <section id='Proyectos' className="section">
             <Separator name='Proyectos' ></Separator>
             <Cita1 autor={'Francis Bacon escribió en 1620'} cita={'El hombre cree con más disposición lo que preferiría que fuera cierto. En consecuencia, rechaza cosas difíciles por impaciencia en la investigación; silencia cosas, porque reducen las esperanzas; lo más profundo de la naturaleza, por superstición; la luz de la experiencia, por arrogancia y orgullo; cosas no creídas comúnmente, por deferencia a la opinión del vulgo. Son pues innumerables los caminos, y a veces imperceptibles, en que los afectos colorean e infectan la comprensión.'}/>
             <br />

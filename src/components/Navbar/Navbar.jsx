@@ -11,6 +11,13 @@ const direcciones = [
         color: 'color-1'
     },
     {
+        name: "Proyectos",
+        icon: 'bi-folder',
+        dir: "#Proyectos",
+        color: 'color-2'
+    },
+
+    {
         name:'Grupo',
         icon: ' bi-book ',
         dir: '#Estudiantes',

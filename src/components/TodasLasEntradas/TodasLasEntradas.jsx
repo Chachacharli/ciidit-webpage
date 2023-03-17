@@ -25,7 +25,7 @@ const Entradas = [
         description: " lo",
         tags: ["Supercapacitores 🥽", "Python 🐍"],
         
-    },
+    },  
     {
         tittle: "Entrada 4",
         date: "05/03/23",
