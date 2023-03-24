@@ -3,6 +3,11 @@ import { Separator } from "../Headers/Separator";
 import { ProyectoCard } from "./ProyectoCard";
 import { Cita1 } from "../Citas/Cita1";
 const PROYECTOS = [
+    {
+        date: '2020-2023',
+        title: 'Procesos Faradaicos',
+        text: 'Develando el Origen de los Procesos Faradaicos en Sistemas Rápidos de Almacenamiento Electroquímico de Energía. 2020-2023'
+    },
 
     {
         date: '2016-2019',
