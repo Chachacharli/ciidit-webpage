@@ -66,3 +66,22 @@
     padding: 10px;
 
 }
+
+
+.container-publicaciones{
+    height: 600px;
+    overflow: scroll;
+    overflow-x:hidden ;
+    scroll-behavior: smooth;
+
+}
+
+.btn-paper{
+    background-color: #041735 !important;
+    color: whitesmoke !important;
+}
+
+.btn-paper:hover{
+    background-color: #061f49 !important;
+    color: whitesmok
+}

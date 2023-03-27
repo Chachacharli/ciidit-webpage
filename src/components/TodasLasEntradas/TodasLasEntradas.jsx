@@ -58,7 +58,6 @@ export const TodasLasEntradas = () =>{
 
     const handleFiltro = ( event ) => {
         if(event.target.checked ){
-
             setFiltro( (filtros) => [...filtros, event.target.value])
         }else{
             setFiltro( (filtros) => filtros.filter((elem) => elem !== event.target.value ))

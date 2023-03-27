@@ -5,18 +5,18 @@ import { Cita1 } from "../Citas/Cita1";
 const PROYECTOS = [
     {
         date: '2020-2023',
-        title: 'Procesos Faradaicos',
+        title: 'Almacenamiento de energía.',
         text: 'Develando el Origen de los Procesos Faradaicos en Sistemas Rápidos de Almacenamiento Electroquímico de Energía. 2020-2023'
     },
 
     {
         date: '2016-2019',
-        title: 'Desarrollo de Materiales.',
+        title: 'Desarrollo de Nanomateriales para Almacenamiento de Energía.',
         text: 'Desarrollo de Materiales Nanoestructurados Basados en Fosfatos de Vanadio y Fosfatos deManganeso Para su Estudio Electroquímico Como Electrodos en Capacitores Electroquímicos.CONACYT. 2016-2019. '
     },
     {
         date: '2018',
-        title: 'Sistema de Liberación de Metotrexato.',
+        title: 'Sistema de Liberación de Farmacos.',
         text: ' Sistema de Liberación de Metotrexato Mediante Nanotubos TiNi y Membrana Polimérica de PNIPAM. PAICYT, 2018.'
     },
     {
