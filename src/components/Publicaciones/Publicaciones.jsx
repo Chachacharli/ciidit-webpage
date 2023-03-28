@@ -52,8 +52,8 @@ const Patentes = () =>{
 
 const Publi = ( {date, datos} ) =>{
     return(
-        datos.map((publicacion) =>{
-            return(<p>{publicacion.tittle}</p>            )
+        datos.map((publicacion,idx) =>{
+            return(<><a className="paper-text" href={publicacion.url} target='_blank' rel='noreferrer'>{idx+1}.- {publicacion.tittle}</a><br /></>)
         })
     )
 }

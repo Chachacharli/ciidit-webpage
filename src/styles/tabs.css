@@ -73,8 +73,25 @@
     overflow: scroll;
     overflow-x:hidden ;
     scroll-behavior: smooth;
+    padding: 10px;
+    background-color: whitesmoke;
+    border-radius: 10px;
+    filter: drop-shadow(0px 5px 15px rgba(0, 0, 0, 0.35));  
 
 }
+
+.container-publicaciones::-webkit-scrollbar {
+    width: 10px;
+  }
+
+.container-publicaciones::-webkit-scrollbar-thumb {
+    background: #666;
+    border-radius: 20px;
+  }
+.container-publicaciones::-webkit-scrollbar-track {
+    background: #ddd;
+    border-radius: 20px;
+  }
 
 .btn-paper{
     background-color: #041735 !important;
