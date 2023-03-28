@@ -76,11 +76,13 @@
 
 }
 
-
-.imagen-alumnos{
+.img-content > img{
+    height: 260px;
+    width: 260px;
     transform:  scale(1.3);
 
 }
+
 .card-alumno{
     height: 550px !important;
 }

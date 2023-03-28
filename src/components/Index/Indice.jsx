@@ -8,14 +8,14 @@ import { DotIndex } from "./DotIndex";
 
 const direcciones = [
     {
-        name:'Home',
+        name:'Homsdfae',
         icon: ' bi-person-circle ',
         dir: '#Home',
         color: 'color-1'
     },
     {
         name:'Estudiates',
-        icon: ' bi-book ',
+        icon: ' bi-people-fill ',
         dir: '#Estudiantes',
         color: 'color-2'
     },

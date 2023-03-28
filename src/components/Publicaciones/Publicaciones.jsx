@@ -93,7 +93,7 @@ export const Publicaciones = ()=>{
                         {PUBLIS.map((anio) =>{
                             return(
                                 <div key={`publicacion-${anio.date}`}>
-                                    <h4 id={`publicacion-${anio.date}`}>{anio.date}</h4>
+                                    <h4 className="h3 header-paper my-2" id={`publicacion-${anio.date}`}>{anio.date}</h4>
                                     <Publi {...anio}> </Publi>
                                 </div>
                             )

@@ -6,7 +6,7 @@ export const CardAlumno = (props) =>{
         <div className="card d-flex align-items-center justify-content-center card-alumno" style={{width: '18rem'}}>
         <div className="img-card-container d-flex align-items-center justify-content-center">
             <div className="img-content">
-                <img id={'id-img-alumn-' + props.idx} loading="lazy" className= "imagen-alumnos foto-alumno card-img-top h-225" src={require('../../assets/fotos/' + props.foto)} alt="Alumno" />
+                <img id={'id-img-alumn-' + props.idx} loading="lazy" className= "imagen-alumnos foto-alumno card-img-top" src={require('../../assets/fotos/' + props.foto)} alt="Alumno" />
             </div>
             <div className="blob"></div>
         </div>

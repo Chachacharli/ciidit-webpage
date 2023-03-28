@@ -19,19 +19,19 @@ const direcciones = [
 
     {
         name:'Grupo',
-        icon: ' bi-book ',
+        icon: ' bi-people-fill ',
         dir: '#Estudiantes',
         color: 'color-2'
     },
     {
         name:'Publicaciones',
-        icon: ' bi-bookmark-check ',
+        icon: ' bi-journals ',
         dir: '#Publicaciones',
         color: 'color-31'
     },
     {
         name:'Investigación ',
-        icon: ' bi-journals ',
+        icon: ' bi-search ',
         dir: '#LineasInvestigacion',
         color: 'color-4'
     },
