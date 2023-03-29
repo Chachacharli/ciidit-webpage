@@ -53,6 +53,10 @@ body{
 
 }
 
+.blog-text{
+    text-align: justify;
+}
+
 .hidden{
     display: none;
 }
