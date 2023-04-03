@@ -125,7 +125,7 @@ export const LineaTemplate = ( params, {data}) =>{
 
             </article>
 
-            <AlumnosRelacionados></AlumnosRelacionados>
+            <AlumnosRelacionados params={params}></AlumnosRelacionados>
 
         </main>
 

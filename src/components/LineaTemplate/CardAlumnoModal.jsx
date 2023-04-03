@@ -1,7 +1,6 @@
 
 import DSC_0613 from '../../assets/fotos/DSC_0613.JPG'
-
-export const CardAlumnoModal = () =>{
+export const CardAlumnoModal = ({name, proyecto,url}) =>{
     
     return(
         <>
@@ -10,14 +9,14 @@ export const CardAlumnoModal = () =>{
         <div className="card">
             <div className="row no-gutters">
                 <div className="col-md-4">
-                    <div className="container-img-card-line" style={{width:"100%"}}>
-                        <img src={DSC_0613} alt="img"  style={{width:'100%'}}/>
+                    <div className="container-img-card-line" style={{width:"100%", height: "100%"}}>
+                        <img loading='lazy' src={require(`../../assets/fotos/${url}`)} alt="img"  style={{width:'100%'}}/>
                     </div>
                 </div>
                 <div className="col-md-8">
                     <div className="card-body">
-                        <h5 className='card-title'>Carlos Alberto Torres Cano</h5>
-                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+                        <h5 className='card-title'>{name}</h5>
+                        <p>{proyecto}</p>
                     </div>
                 </div>
             </div>

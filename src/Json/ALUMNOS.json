@@ -4,14 +4,18 @@
     "foto": "DSC_0618.JPG",
     "carrera": "Ing. Mecatrónica",
     "linea_investigacion": "Almacenamiento de Energía",
-    "icon_inv": "AlmacenamientoEnergia.svg"
+    "icon_inv": "AlmacenamientoEnergia.svg",
+    "proyecto": "Preparación de Películas Delgadas basadas en Nanoestructuras de MnO2 para Capacitores electroquímicos."
+
   },
   {
     "name":"Francisco Sebastián Elizondo Castillo",
     "foto": "DSC_0636.JPG",
     "carrera": "MC Student",
     "linea_investigacion": "Almacenamiento de Energía",
-    "icon_inv": "AlmacenamientoEnergia.svg"
+    "icon_inv": "AlmacenamientoEnergia.svg",
+    "proyecto": "Preparación de Películas Delgadas Basadas en Nanoestructuras de Fe3O4 con Cisteína a Partir de Electrodeposición Para su uso Potencial en Capacitores Electroquímicos."
+
   },
   {
     "name":"Francisco Javier Mendoza Martínez",
@@ -25,56 +29,65 @@
     "foto": "DSC_0613.JPG",
     "carrera": "Ing. Software",
     "linea_investigacion": "Almacenamiento de Energía",
-    "icon_inv": "AlmacenamientoEnergia.svg"
+    "icon_inv": "AlmacenamientoEnergia.svg",
+    "proyecto": "Desarrollo de Software Para el Análisis de Datos Electroquímicos."
   },
   {
     "name":"Jose Julián Montalvo Garza",
     "foto": "DSC_0680.JPG",
     "carrera": "Ing. en Materiales",
     "linea_investigacion": "Almacenamiento de Energía",
-    "icon_inv": "AlmacenamientoEnergia.svg"
+    "icon_inv": "AlmacenamientoEnergia.svg",
+    "proyecto": "Preparación de Electrolitos en Estado Sólido para Almacenamiento de Energía."
   },
   {
     "name":"Jorge Alexis Zúñiga Martínez",
     "foto": "DSC_0716.jpeg",
     "carrera": "PhD Student",
     "linea_investigacion": "Almacenamiento de Energía",
-    "icon_inv": "AlmacenamientoEnergia.svg"
+    "icon_inv": "AlmacenamientoEnergia.svg",
+    "proyecto": "Desarrollo de Materiales 2D Nanoestructurados Basados en Fosfato y Tiofosfatos de Metales de Transición Intercalados con Grafeno para Capacitores Electroquímicos.",
+    "proyecto-2": "Preparación de Microsupercapacitores Asimétricos Basados en Fosfatos de Vanadio y y Fosfatos de Manganeso Nanoestructurados."
   },
   {
     "name":"Paola Daresi Navarro Leal",
     "foto": "DSC_0608.JPG",
     "carrera": "Ing. Biomédico",
     "linea_investigacion": "Conversión de Energía",
-    "icon_inv": "ConversionEnergia.svg"
+    "icon_inv": "ConversionEnergia.svg",
+    "proyecto": "Nanogenerador Triboeléctrico con Potencial Aplicación en Biosensores."
   },
   {
     "name":"Oliver Azael Vázquez Juárez",
     "foto": "DSC_0675.JPG",
     "carrera": "Ing. Biomédico",
     "linea_investigacion": "Conversión de Energía",
-    "icon_inv": "ConversionEnergia.svg"
+    "icon_inv": "ConversionEnergia.svg",
+    "proyecto": "Nanogenerador Triboeléctrico Neuronal para Tratamiento de Ataques Epilépticos."
   },
   {
     "name":"Jesús Emmanuel Guerrero Cortez",
     "foto": "20231602.jpeg",
     "carrera": "Ing. Biomédico",
     "linea_investigacion": "Conversión de Energía",
-    "icon_inv": "ConversionEnergia.svg"
+    "icon_inv": "ConversionEnergia.svg",
+    "proyecto": "Nanogenerador Triboeléctrico Basado en Nanofibras de PCL y Nailón 6-6 con potencial Aplicación como Biosensor Cardiaco."
   },
   { 
     "name":"Adela Sánchez Oseguera",
     "foto": "DSC_0714.jpeg",
     "carrera": "PhD",
     "linea_investigacion": "Nanomateriales con Propiedades Farmacológicas",
-    "icon_inv": "Nanomateriales.svg"
+    "icon_inv": "Nanomateriales.svg",
+    "proyecto": "Síntesis y Evaluación del Efecto Anticancerígeno y Antimicrobiano de Nanopartículas de Fosfato de Vanadio y Aportaciones al Mecanismo de Acción “In vitro”."
   },
   {
     "name":"Yuridia Torres Martínez",
     "foto": "DSC_0715.jpeg",
     "carrera": "PhD Student",
     "linea_investigacion": "Nanomateriales con Propiedades Farmacológicas",
-    "icon_inv": "Nanomateriales.svg"
+    "icon_inv": "Nanomateriales.svg",
+    "proyecto": "Encapsulación de Metformina en Nanopartículas de Fosfato de Vanadio para la Terapia de Cáncer."
   },
 
 
@@ -83,7 +96,8 @@
     "foto": "DSC_0619.JPG",
     "carrera": "MC Student",
     "linea_investigacion": "Nanomateriales con Propiedades Farmacológicas",
-    "icon_inv": "Nanomateriales.svg"
+    "icon_inv": "Nanomateriales.svg",
+    "proyecto": "Nanocápsulas para Terapia Anticancerígena Basadas en Policaprolactona, Alcohol Polivinílico e Hidroxiapatita."
   },
 
   {
@@ -91,7 +105,8 @@
     "foto": "DSC_0638.JPG",
     "carrera": "Ing. Biomédico",
     "linea_investigacion": "Nanomateriales con Propiedades Farmacológicas",
-    "icon_inv": "Nanomateriales.svg"
+    "icon_inv": "Nanomateriales.svg",
+    "proyecto": "Nanopartículas de Magnetita Funcionalizadas con Cisteína y Metformina para Terapia Contra el Cáncer"
   },
       {
         "name":"Rommel Emiliano Reyes Equihua",
@@ -113,21 +128,24 @@
         "foto": "DSC_0671.JPG",
         "carrera": "Ing. Biomédico",
         "linea_investigacion": "Biosensores Elecrtroquímicos",
-        "icon_inv": "BiosensoresElectro2.svg"
+        "icon_inv": "BiosensoresElectro2.svg",
+        "proyecto": "Impresión 2D y 3D de Sensores Neuronales Electroquímicos."
       },
       {
         "name":"Manuel Esteban Alva González",
         "foto": "DSC_0667.JPG",
         "carrera": "Biotecnología Genómica",
         "linea_investigacion": "Biosensores Elecrtroquímicos",
-        "icon_inv": "BiosensoresElectro2.svg"
+        "icon_inv": "BiosensoresElectro2.svg",
+        "proyecto": "Sensores Neuronales Electroquímicos"
       },
       {
         "name":"Debanhi Itzel Pacheco Mendoza",
         "foto": "DSC_0605.JPG",
         "carrera": "Biotecnología Genómica",
         "linea_investigacion": "Biosensores Elecrtroquímicos",
-        "icon_inv": "BiosensoresElectro2.svg"
+        "icon_inv": "BiosensoresElectro2.svg",
+        "proyecto": "Liberación Controlada de Metformina Mediante Hidrogeles de PVA-PEDOT:SS para el Tratamiento de Diabetes Mellitus Tipo 2."
       },
 
       {
