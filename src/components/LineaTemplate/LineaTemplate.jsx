@@ -59,7 +59,7 @@ const LineasText = [
         parrafos:[
             {
                 parrafo: 1,
-                text: 'Con la llegada de los vehículos eléctricos, drones, dispositivos electrónicos portátiles, bioelectrónica y el Internet de las Cosas, se ha incrementado la demanda de soluciones de almacenamiento de energía que permitan la portabilidad y autonomía requerida. Las baterías y supercapacitores son las principales alternativas de almacenamiento de energía electroquímica en la actualidad.'
+                text: 'Los fármacos tradicionales nos ayudan a combatir enfermedades infecciosas, cáncer y otros tipos de padecimientos. Sin embargo, la rápida aparición de nuevos microorganismos fármaco resistentes, los severos efectos secundarios y la ineficacia de los fármacos frente a padecimientos complejos, son la causa de una intensa búsqueda de nuevas alternativas.'
             },
             {
                 parrafo: 2,
