@@ -37,7 +37,7 @@ body{
 }
 
 .container-img-card-line > img{
-    transform: scale(1.8);
+    transform: scale(1.4);
 }
 
 .card-alumno-modal{
@@ -47,11 +47,6 @@ body{
 
 }
 
-.card-alumno-modal:hover{
-    background-color: #0dcaf0;
-    filter: drop-shadow(0px 5px 15px rgba(0, 0, 0, 0.35));
-
-}
 
 .blog-text{
     text-align: justify;
@@ -59,4 +54,35 @@ body{
 
 .hidden{
     display: none;
+}
+
+
+.img-card-modal{
+    max-width: 150px;
+    
+}
+
+/* style={{height: '225px'}} */ 
+
+.card-alumno-modal{
+    height: 225px !important;
+}
+
+.img-container-modal{
+    width: 150px;
+    height: 150px;
+    border-radius: 100%;
+    overflow: hidden;
+}
+
+.img-container-modal > img{
+    transform: scale(1.2);
+}
+
+
+@media (max-width:480px) {
+    .card-alumno-modal{
+        height: 400px !important;
+    }
+    
 }

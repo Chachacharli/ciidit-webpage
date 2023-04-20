@@ -5,7 +5,7 @@
     "carrera": "Ing. Mecatrónica",
     "linea_investigacion": "Almacenamiento de Energía",
     "icon_inv": "AlmacenamientoEnergia.svg",
-    "proyecto": "Preparación de Películas Delgadas basadas en Nanoestructuras de MnO2 para Capacitores electroquímicos."
+    "proyecto": "Preparación de Películas Delgadas basadas en Nanoestructuras de MnO2 para Capacitores Electroquímicos."
 
   },
   {
@@ -14,7 +14,7 @@
     "carrera": "MC Student",
     "linea_investigacion": "Almacenamiento de Energía",
     "icon_inv": "AlmacenamientoEnergia.svg",
-    "proyecto": "Preparación de Películas Delgadas Basadas en Nanoestructuras de Fe3O4 con Cisteína a Partir de Electrodeposición Para su uso Potencial en Capacitores Electroquímicos."
+    "proyecto": "Preparación de Películas Delgadas Basadas en Nanoestructuras de Fe3O4 con Cisteína a Partir de Electrodeposición para su uso Potencial en Capacitores Electroquímicos."
 
   },
   {
@@ -22,7 +22,8 @@
     "foto": "DSC_0717.jpeg",
     "carrera": "Ing. Mecatrónica",
     "linea_investigacion": "Almacenamiento de Energía",
-    "icon_inv": "AlmacenamientoEnergia.svg"
+    "icon_inv": "AlmacenamientoEnergia.svg",
+    "proyecto": "Preparación de Supercapacitores Híbridos Basados en Grafeno y Óxidos de Metales de Transición Nanoestructurados."
   },
   {
     "name":"Carlos Alberto Torres Cano",
@@ -30,7 +31,7 @@
     "carrera": "Ing. Software",
     "linea_investigacion": "Almacenamiento de Energía",
     "icon_inv": "AlmacenamientoEnergia.svg",
-    "proyecto": "Desarrollo de Software Para el Análisis de Datos Electroquímicos."
+    "proyecto": "Desarrollo de Software para el Análisis de Datos Electroquímicos."
   },
   {
     "name":"Jose Julián Montalvo Garza",

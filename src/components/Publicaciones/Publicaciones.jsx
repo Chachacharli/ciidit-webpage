@@ -1,11 +1,9 @@
 import React, { useEffect } from "react";
-
-
 import '../../styles/tabs.css'
 import { Separator } from "../Headers/Separator";
 import { Cita1 } from "../Citas/Cita1";
-
 import { PUBLIS } from "../../Json/PUBLIS";
+import SectionTesis from "./SectionTesis";
 
 const Patentes = () =>{
     return(
@@ -53,7 +51,7 @@ const Patentes = () =>{
 const Publi = ( {date, datos} ) =>{
     return(
         datos.map((publicacion,idx) =>{
-            return(<><a className="paper-text" href={publicacion.url} target='_blank' rel='noreferrer'>{idx+1}.- {publicacion.tittle}</a><br /></>)
+            return(<><a className="paper-text" href={publicacion.url} target='_blank' rel='noreferrer'>{idx+1}.- {publicacion.tittle}</a><br /> <br /></>)
         })
     )
 }
@@ -61,7 +59,6 @@ const Publi = ( {date, datos} ) =>{
 export const Publicaciones = ()=>{
     useEffect(()=>{
         const btn_publicaciones = document.querySelectorAll('.btn-paper')
-            console.log(btn_publicaciones)
             btn_publicaciones.forEach((btn)=>{
                 btn.addEventListener('click', ()=>{
                     let variale = btn.getAttribute("target")
@@ -80,7 +77,7 @@ export const Publicaciones = ()=>{
   
         <div className="container">
             <div className="row">
-                <div className="col-2 d-flex flex-column">
+                <div className="col-md-2 d-flex flex-column">
                     {PUBLIS.map((anio)=>{
                         return(
                             <p className="btn btn-paper m-2" target={`publicacion-${anio.date}`} id={`publicacion-btn-${anio.date}`}> {anio.date}</p>
@@ -88,7 +85,7 @@ export const Publicaciones = ()=>{
                     })}
                 </div>
                
-                <div className="col-10">                    
+                <div className="col-md-10">                    
                 <div id="container-publicaciones" className="container-publicaciones" >
                         {PUBLIS.map((anio) =>{
                             return(
@@ -107,7 +104,10 @@ export const Publicaciones = ()=>{
 
         <Separator name='Patentes'></Separator>
 
-        <Patentes></Patentes>
+        <Patentes/>
+        <Separator name='Tesis'></Separator>
+        <SectionTesis/>
+
         </section>
     )
 }

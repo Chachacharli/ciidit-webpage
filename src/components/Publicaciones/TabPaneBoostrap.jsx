@@ -11,8 +11,8 @@ const LetParaf = (props) =>{
             { props.arr.datos.map((elem, idx) =>{
                 return(
 
-                    <><a target="_blank" rel="noreferrer" href={elem.url} className="paper-text"> {idx +1}. {elem.tittle}</a> <br /><br /></>
-                                     
+                    <a target="_blank" rel="noreferrer" href={elem.url} className="paper-text"> {idx +1}. {elem.tittle}</a>
+                            
                 )
             })}
         </>
@@ -27,6 +27,7 @@ export const TabPaneBoostrap = ()=>{
         <div className="tab-content" id="v-pills-tabContent">
             <div className="tab-pane fade show active" id="v-pills-home-0" role="tabpanel" aria-labelledby="v-pills-home-tab" tabIndex="0">
                 <LetParaf arr={PUBLIS[0]}> </LetParaf>
+                
             </div>
             <div className="tab-pane fade" id="v-pills-home-1" role="tabpanel" aria-labelledby="v-pills-profile-tab" tabIndex="0">
                 <LetParaf arr={PUBLIS[1]}> </LetParaf>

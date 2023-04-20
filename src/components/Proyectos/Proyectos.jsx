@@ -12,7 +12,7 @@ const PROYECTOS = [
     {
         date: '2016-2019',
         title: 'Desarrollo de Nanomateriales para Almacenamiento de Energía.',
-        text: 'Desarrollo de Materiales Nanoestructurados Basados en Fosfatos de Vanadio y Fosfatos deManganeso Para su Estudio Electroquímico Como Electrodos en Capacitores Electroquímicos.CONACYT. 2016-2019. '
+        text: 'Desarrollo de Materiales Nanoestructurados Basados en Fosfatos de Vanadio y Fosfatos de Manganeso para su Estudio Electroquímico Como Electrodos en Capacitores Electroquímicos. CONACYT. 2016-2019. '
     },
     {
         date: '2018',

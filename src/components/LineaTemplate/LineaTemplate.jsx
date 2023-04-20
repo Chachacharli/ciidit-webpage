@@ -41,16 +41,24 @@ const LineasText = [
             },
             {
                 parrafo: 5,
-                text: 'Nuestro objetivo es desarrollar micro-supercapacitores que pueden ser utilizados en dispositivos portátiles.'
+                text: 'Nuestros objetivos son:'
                 
             },
             {
+                parrafo: 5,
+                text: '-Desarrollar micro-supercapacitores que pueden ser utilizados en dispositivos portátiles.'
+            },
+            {
+                parrafo: 5,
+                text: '-Bio-supercapacitores para utilizarlos en dispositivos médicos implantables, como marcapasos y para terapias de estimulación cerebral, alimentar biosensores de pH, glucosa, presión arterial, etc.'
+            },
+            {
                 parrafo: 6,
-                text: 'Supercapacitores flexibles para textiles inteligentes, drones y robótica suave. Bio-supercapacitores para utilizarlos en dispositivos médicos implantables, como marcapasos y para terapias de estimulación cerebral, alimentar biosensores de pH, glucosa, presión arterial, etc.'
+                text: '-Supercapacitores flexibles para textiles inteligentes, drones y robótica suave.'
             },
             {
                 parrafo: 7,
-                text: 'Supercapacitores para vehículos eléctricos, recuperación de energía en sistemas de frenado y almacenamiento a gran escala para la red eléctrica.'
+                text: '-Supercapacitores para vehículos eléctricos, recuperación de energía en sistemas de frenado y almacenamiento a gran escala para la red eléctrica.'
             }
         ]
     },

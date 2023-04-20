@@ -1,28 +1,22 @@
 
-import DSC_0613 from '../../assets/fotos/DSC_0613.JPG'
 export const CardAlumnoModal = ({name, proyecto,url}) =>{
     
     return(
         <>
-        <div  className="card card-alumno-modal" data-bs-toggle="modal" data-bs-target="#exampleModal">
-                        
-        <div className="card">
-            <div className="row no-gutters">
-                <div className="col-md-4">
-                    <div className="container-img-card-line" style={{width:"100%", height: "100%"}}>
-                        <img loading='lazy' src={require(`../../assets/fotos/${url}`)} alt="img"  style={{width:'100%'}}/>
+        <div  className="card card-alumno-modal"  data-bs-toggle="modal" data-bs-target="#exampleModal">
+            <div className="row h-100">
+                <div className="col-md-4 d-flex align-items-center justify-content-center">
+                    <div className="img-container-modal m-2">
+                        <img className="img-card-modal" loading='lazy' src={require(`../../assets/fotos/${url}`)} alt="img"  /> 
                     </div>
                 </div>
                 <div className="col-md-8">
-                    <div className="card-body">
-                        <h5 className='card-title'>{name}</h5>
-                        <p>{proyecto}</p>
-                    </div>
+                    <h4 className="p-2">{name}</h4>
+                    <p className="p-2">{proyecto}</p>
                 </div>
             </div>
-        </div>
 
-    </div>
+        </div>
 
             <div className="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
             <div className="modal-dialog">

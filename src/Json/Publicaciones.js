@@ -73,7 +73,7 @@ export const PublicacionesTabs = [
                 "url": "https://iopscience.iop.org/article/10.1149/2.1221606jes"   
             },
             {
-                "tittle": "MA Martínez-Rodríguez, MA Garza-Navarro, IE Moreno-Cortez, Raúl Lucio-PortCarbohydrate Polymero, VA González González. Silver/Polysaccharide-based Nanofibrous Materials Synthesized from Green Chemistry Approach. s, 136, 46-53, 2016.",
+                "tittle": "MA Martínez-Rodríguez, MA Garza-Navarro, IE Moreno-Cortez, Raúl Lucio-Porto. Carbohydrate Polymero, VA González González. Silver/Polysaccharide-based Nanofibrous Materials Synthesized from Green Chemistry Approach. s, 136, 46-53, 2016.",
                 "url": "https://pubmed.ncbi.nlm.nih.gov/26572327/"
 
             },
@@ -107,12 +107,12 @@ export const PublicacionesTabs = [
 
             },
             {
-                "tittle": "S Bouhtiyya, R Lucio Porto, B Laïk, P Boulet, F Capon, JP Pereira-Ramos, Thierry Brousse, JF Pierson. Application of Sputtered Ruthenium Nitride thin Films as Electrode Eaterial for Energy-storage Devices. Scripta Materialia, 68, 659-662, 2013.",
+                "tittle": "S Bouhtiyya, R Lucio Porto, B Laïk, P Boulet, F Capon, JP Pereira-Ramos, Thierry Brousse, JF Pierson. Application of Sputtered Ruthenium Nitride thin Films as Electrode Eaterial for Energy-Storage Devices. Scripta Materialia, 68, 659-662, 2013.",
                 "url": "https://www.sciencedirect.com/science/article/abs/pii/S1359646213000523"
 
             },
             {
-                "tittle": "Nubia E Torres-Martínez, MA Garza-Navarro, Raúl Lucio-Porto, Domingo García-Gutiérrez, Alejandro Torres-Castro, Virgilio A González-González. One-pot Synthesis of Magnetic Hybrid Materials Based on Ovoid-like Carboxymethyl-cellulose/Cetyltrimethylammonium-bromide Templates. Materials Chemistryand Physics, 141, 735-743, 2013.",
+                "tittle": "Nubia E Torres-Martínez, MA Garza-Navarro, Raúl Lucio-Porto, Domingo García-Gutiérrez, Alejandro Torres-Castro, Virgilio A González-González. One-pot Synthesis of Magnetic Hybrid Materials Based on Ovoid-like Carboxymethyl-cellulose/Cetyltrimethylammonium-bromide Templates. Materials Chemistry and Physics, 141, 735-743, 2013.",
                 "url": "https://www.sciencedirect.com/science/article/abs/pii/S0254058413004537"
             }
         ]
