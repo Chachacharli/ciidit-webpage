@@ -79,6 +79,26 @@ body{
     transform: scale(1.2);
 }
 
+.text-indent-0{
+    text-indent: 0 !important;
+    transition: 0.3s;
+
+}
+
+.text-indent-0:hover{
+    color:  rgb(13, 58, 129)!important;
+}
+
+.card-alumno-modal:hover{
+    box-shadow:
+  2.8px 2.8px 2.2px rgba(0, 0, 0, 0.052),
+  6.7px 6.7px 5.3px rgba(0, 0, 0, 0.062),
+  12.5px 12.5px 10px rgba(0, 0, 0, 0.064),
+  22.3px 22.3px 17.9px rgba(0, 0, 0, 0.062),
+  41.8px 41.8px 33.4px rgba(0, 0, 0, 0.06),
+  100px 100px 80px rgba(0, 0, 0, 0.07)
+;
+}
 
 @media (max-width:480px) {
     .card-alumno-modal{

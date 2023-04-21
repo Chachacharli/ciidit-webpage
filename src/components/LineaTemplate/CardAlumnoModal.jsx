@@ -1,9 +1,23 @@
 
+const ListModalProyectos = ({proyectos, name}) => { 
+    return(
+        <>                    
+            <h4 className="p-2">{name}</h4>
+            {proyectos.map((obj) => {
+                return(
+                    <> 
+                    <a href={obj.url && obj.url} className="p-2 text-dark text-decoration-none text-indent-0">{obj.proyecto }</a><br /><br /> </>
+                )
+            })}
+        </>
+    )
+}
+
 export const CardAlumnoModal = ({name, proyecto,url}) =>{
     
     return(
         <>
-        <div  className="card card-alumno-modal"  data-bs-toggle="modal" data-bs-target="#exampleModal">
+        <div  className="card card-alumno-modal"  data-bs-toggle="modal" data-bs-target={`#Modal${name.split(' ').slice( name.split(' ')[0] )}`}>
             <div className="row h-100">
                 <div className="col-md-4 d-flex align-items-center justify-content-center">
                     <div className="img-container-modal m-2">
@@ -12,13 +26,12 @@ export const CardAlumnoModal = ({name, proyecto,url}) =>{
                 </div>
                 <div className="col-md-8">
                     <h4 className="p-2">{name}</h4>
-                    <p className="p-2">{proyecto}</p>
+                    <p className="p-2">{ proyecto[0].proyecto }</p>
                 </div>
             </div>
 
         </div>
-
-            <div className="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div className="modal fade" id={`Modal${name.split(' ').slice( name.split(' ')[0] )}`} tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
             <div className="modal-dialog">
                 <div className="modal-content">
                 <div className="modal-header">
@@ -26,7 +39,8 @@ export const CardAlumnoModal = ({name, proyecto,url}) =>{
                     <button type="button" className="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                 </div>
                 <div className="modal-body">
-                    [ INVESTIGACIONES Y TESIS  ] <small> <a href="#a"> Link</a> </small>
+
+                    <ListModalProyectos proyectos={proyecto} name={name}    />
                 </div>
 
                 </div>
