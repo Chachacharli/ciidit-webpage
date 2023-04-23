@@ -2,7 +2,6 @@ import { Footer } from '../Footer/Footer'
 import { SideBarLineas } from './SideBarLineas'
 import { PostMetaData } from './PostMetaData'
 import { BlogParagraph } from './BLogParagraph'
-import DSC_0702 from '../../assets/fotos/DSC_0702.JPG'
 import { AlumnosRelacionados } from './AlumnosRelacionados'
 import { Link } from 'react-router-dom'
 import { useEffect } from 'react'
@@ -10,17 +9,28 @@ import { useState } from 'react'
 
 import '../../styles/lineaInvestigaciontemplate.css'
 
+import SUPERCAPACITOR from '../../assets/Supercapacitor_electroquimcio_1.png'
+import BIOELECTRONICA from '../../assets/Bioelectronica.png'
+import TILACOIDE from '../../assets/Membrana_de _tilacoides.png'
+import BIOSENSORES from '../../assets/Biosensores_electroquimicos.png'
+import ACTUADORES from '../../assets/Actuadores_electroquimicos.png'
+import BIOSENSORES2 from '../../assets/Biosensores_electroquimicos_cardio.png'
 
 const DicLinea = {
 
     'Almacenamiento de Energía': 0,
-    'Nanomateriales con Propiedades Farmacológicas': 1
+    'Nanomateriales con Propiedades Farmacológicas': 1,
+    'Conversión de Energía': 2,
+    'Biosensores Electroquimicos': 3, 
+    'Actuadores Electroquímicos': 4,
+    'Bioelectrónica': 5
 
 }
 
 const LineasText = [
     {
         name: 'Almacenamiento de Energía',
+        img: SUPERCAPACITOR,
         parrafos: [
             {
                 parrafo: 1,
@@ -64,6 +74,7 @@ const LineasText = [
     },
     {
         name: 'Nanomateriales con Propiedades Farmacológicas',
+        img: BIOELECTRONICA,
         parrafos:[
             {
                 parrafo: 1,
@@ -78,6 +89,26 @@ const LineasText = [
                 text: 'En nuestro grupo de investigación nos enfocamos en desarrollar alternativas contra enfermedades como el cáncer, microorganismos fármaco resistentes y la diabetes. La estrategia que utilizamos es la preparación de nanopartículas con un tamaño entre 20 a 80 nm y diferentes morfologías, buscando que tengan un efecto farmacológico intrínseco, la funcionalización de nanopartículas con fármacos o moléculas para promover el anclaje en sitios específicos de la membrana celular y nanocápsulas para el transporte y liberación controlada de fármacos.'
             }
         ]
+    },
+    {
+        name: 'Conversión de Energía',
+        img: TILACOIDE,
+        parrafos: []
+    },
+    {
+        name: 'Biosensores Electroquimicos',
+        img: BIOSENSORES,
+        parrafos: []
+    },
+    {
+        name: 'Actuadores Electroquímicos',
+        img: ACTUADORES,
+        parrafos: []
+    },
+    {
+        name: 'Bioelectrónica',
+        img: BIOSENSORES2,
+        parrafos: []
     }
 ]
 
@@ -113,12 +144,13 @@ export const LineaTemplate = ( params, {data}) =>{
                 <div className="row g-5">
                     <div className="img-article-container">
                         <h1> {params.linea} </h1>
-                        <img src={DSC_0702} className="img-thumbnail" alt="..."/>
+                        
+                        <img style={{maxHeight: '600px'}} src={info && info.img} className="img-thumbnail" alt={info && info.img}/>
                     </div>
                     
                     <div className="col-md-8">   
                         <PostMetaData hidden={true}></PostMetaData>
-                        <h2>{params.linea   }</h2>
+                        <h2>{ info && info.name}</h2>
                         {info && info.parrafos.map((info,idx)=>{
                             return(
                                 <BlogParagraph text={info.text}></BlogParagraph>
