@@ -14,7 +14,8 @@ import { Colaboradores } from './components/Colaboradores/Colaboradores';
 import { TodasLasEntradas } from './components/TodasLasEntradas/TodasLasEntradas';
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import { Proyectos } from './components/Proyectos/Proyectos';
-
+import VisitCounter from './components/VisitCounter/VisitCOunter';
+import { useEffect, useRef, useState } from 'react';
 
 const MainPage = () =>{
   window.scrollTo(0,0);
@@ -40,16 +41,30 @@ const MainPage = () =>{
 }
 
 
+
 function App() {
+  const [visits, setVisits] = useState(0)
+  const shoullog = useRef(true)
+  useEffect(()=>{
+    if( shoullog.current ){
+      shoullog.current = false
+      fetch('https://api.countapi.xyz/update/rlucioporto/webpage/?amount=1')
+      .then(res => res.json())
+      .then(res =>setVisits(res.value)) 
+    }
   
+  },[])
+
   return (
     <BrowserRouter>
       <Routes >
         <Route path='/' element={<MainPage/>} ></Route> 
         <Route path='/Linea/:name' element={<LineaInvestigacion />}></Route>
         <Route path='/Blog/:name-blog'></Route>
+        <Route path='/visit' element={<VisitCounter/>}></Route>
+        <Route path='/Entradas'  element={<TodasLasEntradas/>}></Route>
         <Route path='*' element={ <h1> NOT FOUND </h1> }></Route>
-        <Route path='/Entradas'  element={<TodasLasEntradas />}></Route>
+
       </Routes>
     </BrowserRouter>
   );
