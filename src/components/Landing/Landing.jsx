@@ -34,7 +34,7 @@ export const Landing = ( ) =>{
                             <p className="fs-5">Centro de Innovación, Investigación y Desarrollo en Ingeniería y Tecnología</p>
                             <p className="fs-5">Centro de Inovación en Ingeniería de Tecnología Inteligente Biomédica y Mecatrónica</p>
                             <p className="fs-5">Facultad de Ingeniería Mecánica y Eléctrica</p>
-                            <p className="fs-5">UANL</p>
+                            <p className="fs-5">Universidad Autónoma de Nuevo León</p>
 
                     </div>
 
