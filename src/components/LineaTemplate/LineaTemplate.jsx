@@ -115,12 +115,19 @@ const LineasText = [
     {
         name: 'Actuadores Electroquímicos',
         img: ACTUADORES,
-        parrafos: []
+        parrafos: [
+            {text: ''}
+        ]
     },
     {
         name: 'Bioelectrónica',
         img: BIOSENSORES2,
-        parrafos: []
+        parrafos: [
+            {text: 'La Bioelectrónica es un área emergente, cuyo objetivo es el monitoreo, procesamiento y estimulación a tejidos y órganos para el restablecimiento o recuperación de sus funciones. Los sistemas bioelectrónicos consisten en biosensores electroquímicos, amplificador de señales, biosupercapacitores para el suministro de energía, controlador para el almacenamiento y procesamiento de datos. El biodispositivo electrónico es implantado en el cuerpo humano. '},
+            {text: 'Por medio de la recolección de bioseñales fisiológicas, electrofisiológicas, electroquímicas y mecánicas se realiza un diagnostico preciso que permite a los biodispositivos implantados actuar, generando estímulos para la liberación de fármacos, impulsos eléctricos a bioactuadores electroquímicos para expansión y contracción de fibras musculares, venas o arterias, etc.'},
+            {text: 'En nuestro equipo de investigación desarrollamos todos los componentes de los biodispositos electrónicos, uniendo así diversas áreas de la ciencia, nanotecnología e ingeniería mecánica y electrónica. Los proyectos que desarrollamos en las otras líneas de investigación convergen en esta.'},
+            {text: 'En nuestro laboratorio estamos desarrollando un biodispositivo electrónico para liberación controlada de fármacos. El cual está compuesto por hidrogeles cargados con fármacos conectados a electrodos impresos y por medio de impulsos eléctricos el hidrogel libera al fármaco. Un Controlador recibe la señal y toma la decisión de enviar un estímulo eléctrico al hidrogel cuando se requiere la liberación de fármacos. El biodispositivo electrónico cuenta con un biosupercapacitor para suministrar energía. Todo el biodispositivo está desarrollado con nanomateriales biocompatibles.'},
+            {text: 'Los actuadores electroquímicos que se están desarrollando en nuestro laboratorio como músculos artifíciales, requieren de igual forma un controlador capaz de enviar estímulos eléctricos a través de electrodos nanoestructurados para controlar su movimiento. Los nanomateiales son biocompatibles permitiendo implantar el biodispositivo electrónico en el cuerpo humano. '}]
     }
 ]
 
