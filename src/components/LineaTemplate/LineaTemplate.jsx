@@ -3,18 +3,17 @@ import { SideBarLineas } from './SideBarLineas'
 import { PostMetaData } from './PostMetaData'
 import { BlogParagraph } from './BLogParagraph'
 import { AlumnosRelacionados } from './AlumnosRelacionados'
-import { Link } from 'react-router-dom'
 import { useEffect } from 'react'
 import { useState } from 'react'
-
+import VolverAHome from './VolverAHome'
 import '../../styles/lineaInvestigaciontemplate.css'
 
 import SUPERCAPACITOR from '../../assets/Supercapacitor_electroquimcio_1.png'
-import BIOELECTRONICA from '../../assets/Bioelectronica.png'
+import FARMACOS from '../../assets/infografias/NanocapsulasFarmacos.png'
 import TILACOIDE from '../../assets/Membrana_de _tilacoides.png'
-import BIOSENSORES from '../../assets/Biosensores_electroquimicos.png'
+import BIOSENSORES from '../../assets/infografias/BiosensoresElectroquimicos.png'
 import ACTUADORES from '../../assets/Actuadores_electroquimicos.png'
-import BIOSENSORES2 from '../../assets/Biosensores_electroquimicos_cardio.png'
+import BIOELECTRONICA from '../../assets/infografias/Bioelectronica.png'
 
 const DicLinea = {
 
@@ -74,7 +73,7 @@ const LineasText = [
     },
     {
         name: 'Nanomateriales con Propiedades Farmacológicas',
-        img: BIOELECTRONICA,
+        img: FARMACOS,
         parrafos:[
             {
                 parrafo: 1,
@@ -121,7 +120,7 @@ const LineasText = [
     },
     {
         name: 'Bioelectrónica',
-        img: BIOSENSORES2,
+        img: BIOELECTRONICA,
         parrafos: [
             {text: 'La Bioelectrónica es un área emergente, cuyo objetivo es el monitoreo, procesamiento y estimulación a tejidos y órganos para el restablecimiento o recuperación de sus funciones. Los sistemas bioelectrónicos consisten en biosensores electroquímicos, amplificador de señales, biosupercapacitores para el suministro de energía, controlador para el almacenamiento y procesamiento de datos. El biodispositivo electrónico es implantado en el cuerpo humano. '},
             {text: 'Por medio de la recolección de bioseñales fisiológicas, electrofisiológicas, electroquímicas y mecánicas se realiza un diagnostico preciso que permite a los biodispositivos implantados actuar, generando estímulos para la liberación de fármacos, impulsos eléctricos a bioactuadores electroquímicos para expansión y contracción de fibras musculares, venas o arterias, etc.'},
@@ -132,11 +131,7 @@ const LineasText = [
 ]
 
 
-const VolverAHome = () =>{
-    return(
-            <Link className='z-3 text-decoration-none text-light position-fixed bottom-0 end-0 my-2 mx-5 color-1 px-2 rounded' to='/'><i className="bi bi-house mx-1 fs-4"></i></Link>
-    )
-}
+
 
 export const LineaTemplate = ( params, {data}) =>{
     window.scrollTo(0,0);

@@ -16,6 +16,7 @@ import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import { Proyectos } from './components/Proyectos/Proyectos';
 import VisitCounter from './components/VisitCounter/VisitCOunter';
 import { useEffect, useRef, useState } from 'react';
+import Post from './pages/Post';
 
 const MainPage = () =>{
   window.scrollTo(0,0);
@@ -32,7 +33,7 @@ const MainPage = () =>{
       <FotosGrupales></FotosGrupales>
       <LineasInvestigacion></LineasInvestigacion>
       <Colaboradores/>
-      <Blog></Blog>
+      {/*<Blog></Blog>*/}
       <Eventos></Eventos>
       <Contacto></Contacto>
       <GoBack href='#Landing'/>  
@@ -60,7 +61,7 @@ function App() {
       <Routes >
         <Route path='/' element={<MainPage/>} ></Route> 
         <Route path='/Linea/:name' element={<LineaInvestigacion />}></Route>
-        <Route path='/Blog/:name-blog'></Route>
+        <Route path='/Blog' element={<Post/>}></Route>
         <Route path='/visit' element={<VisitCounter/>}></Route>
         <Route path='/Entradas'  element={<TodasLasEntradas/>}></Route>
         <Route path='*' element={ <h1> NOT FOUND </h1> }></Route>

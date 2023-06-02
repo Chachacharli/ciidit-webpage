@@ -1,9 +1,11 @@
 import React from "react";
 
 import DSC_0690 from '../../assets/fotos/DSC_0690.JPG'
+import { Link } from "react-router-dom";
 
 export const CardEntry = () =>{
     return(
+        <Link to={'/Blog'}>
         <div className="card blog-entry-card" style={{width: '18rem'}}>
         <img src={DSC_0690} className="card-img-top" alt="..."/>
         <div className="mes-blog">
@@ -11,6 +13,7 @@ export const CardEntry = () =>{
             <p className="card-entry-fecha">20 octubre 2022</p>
             <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. </p>    
         </div>
-    </div>
+        </div>
+        </Link>
     )
 }
