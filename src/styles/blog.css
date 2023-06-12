@@ -39,3 +39,16 @@
     font-weight: 600;
 
 }
+
+.post-link{
+    transition: 0.3s;    
+}
+
+.post-link:hover{
+    color: #87cefa !important;
+}
+
+.mes-blog > p h5{
+    text-decoration: none !important;
+    text-decoration-line: none !important;
+}

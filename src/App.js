@@ -33,7 +33,7 @@ const MainPage = () =>{
       <FotosGrupales></FotosGrupales>
       <LineasInvestigacion></LineasInvestigacion>
       <Colaboradores/>
-      {/*<Blog></Blog>*/}
+      <Blog></Blog>
       <Eventos></Eventos>
       <Contacto></Contacto>
       <GoBack href='#Landing'/>  
@@ -61,14 +61,17 @@ function App() {
       <Routes >
         <Route path='/' element={<MainPage/>} ></Route> 
         <Route path='/Linea/:name' element={<LineaInvestigacion />}></Route>
-        <Route path='/Blog' element={<Post/>}></Route>
+        <Route path='/Blog/:id' element={<Post />}></Route>
         <Route path='/visit' element={<VisitCounter/>}></Route>
         <Route path='/Entradas'  element={<TodasLasEntradas/>}></Route>
         <Route path='*' element={ <h1> NOT FOUND </h1> }></Route>
 
       </Routes>
     </BrowserRouter>
+    
   );
 }
+
+
 
 export default App;
