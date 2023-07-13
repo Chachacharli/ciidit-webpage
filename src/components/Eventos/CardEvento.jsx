@@ -14,7 +14,7 @@ export const CardEvento = ({tittle, description, day, mes, hour}) =>{
         <div className="description-evento">
             <h6 className="name-evento"> {tittle} </h6>
             <p className="info-evento"> {description} </p>
-            <p className="hora-evento"> {hour} </p>
+            <p className="hora-evento my-2"> {hour} </p>
         </div>
     </div>
     )

@@ -42,8 +42,10 @@ export const Eventos = () =>{
                     >
 
                     <CardEvento tittle={'Seminario de nanotecnología'} description={'Cada miércoles en sala de viodeconferencias CIIDIT'}  day={'M'} mes={'Marzo'} hour={'11:00'} ></CardEvento>
+                    <CardEvento tittle={'Energy Discussion Solution for Electromobility'} description={''}  day={'24'} mes={'Marzo'} hour={''}></CardEvento>                        
+                    <CardEvento tittle={'International Energy Storage and conversion congress 3ra edición.'} description={''}  day={'15-17'} mes={'Noviembre'} hour={''}></CardEvento>                        
                     <CardEvento tittle={'Curso de Python '} description={'Cada miércoles en sala de viodeconferencias CIIDIT'}  day={'M'} mes={'Marzo'} hour={'12:00'}></CardEvento>                        
-                
+
                 </Carousel>
             </div>
 
